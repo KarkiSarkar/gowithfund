@@ -129,3 +129,6 @@ strong{
 .wpneo-list-details .campaign-top .campaign-single-left .woocommerce-product-gallery__trigger:after{
     /*display: none;*/
 }
+p{
+    color: yellow!important;
+}
