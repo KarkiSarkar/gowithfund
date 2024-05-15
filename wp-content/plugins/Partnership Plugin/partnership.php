@@ -490,7 +490,7 @@ This following statements selects each category individually that contains an in
                 'From: GoWithFund <info@gowithfund.com>',
                 'Content-Type: text/html; charset=UTF-8'
             );
-            $client_subject = 'Thank you for your interest';
+            $client_subject = 'Thank you for contacting us';
              $client_message = "<div style='text-align: center; background-color: #00A9A5;'><img width='200' src='https://gowithfund.com/wp-content/uploads/2015/12/Final-Logo-white.png'/></div></br><div><h2>Dear $name,</h2></div><p>Thank you for expressing your interest in becoming a partner with GoWithFund. We appreciate your support and enthusiasm for our crowdfunding platform. Our team will review your submission and get back to you soon with further details.</p><div><p>Best regards,</p><p>The GoWithFund Team</p><p>943, 447 Broadway, 2nd Floor</p><p>New York, US</p></div><div><img width='150' src='https://gowithfund.com/wp-content/uploads/2024/05/Gowithfund-Final-Logo-Transparancy-BG.png'/></div>";
             wp_mail($email, $client_subject, $client_message, $client_headers);
     // Check if the request is from a web browser
