@@ -132,3 +132,6 @@ strong{
 p{
     color: black!important;
 }
+.title > a{
+    color: red!important;
+}
