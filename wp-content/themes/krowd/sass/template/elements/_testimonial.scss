@@ -1,0 +1,185 @@
+.gva-testimonial-carousel{
+  &.style-1{
+    .testimonial-item{
+      text-align: center;
+      border: 1px solid rgba(0, 0, 0, 0.02);
+      @include box-shadow(0px 0px 30px 0px rgba(0, 0, 0, 0.05));
+      margin-bottom: 30px;
+      position: relative;
+      background: $white;
+      transition: all 0.35s;
+      .content-inner{
+        position: relative;
+        margin: 15px;
+        &:after{
+          content: '';
+          @include size(29px, 29px);
+          background: $theme-color-2;
+          position: absolute;
+          top: -15px;
+          right: -15px;
+          z-index: 11;
+          transition:  all 0.35s;
+          @include scale(0);
+        }
+      }
+      .line{
+        opacity: 0;
+        transition: all 0.35s;
+        &:before, &:after{
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          z-index: 1;
+          transition: all 0.35s;
+          background: $theme-color-2;
+          @include size(2px, 2px);
+        }
+      }
+      .line-2{
+        opacity: 0;
+        transition: all 0.35s;
+        &:before, &:after{
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+          transition: all 0.35s;
+          background: $theme-color-2;
+          @include size(2px, 2px);
+        }
+      }
+      .testimonial-content{
+        padding: 140px 20px 75px;
+        .quote-icon{
+          font-size: 60px;
+          color: $white;
+          background: $theme-color;
+          width: 50px;
+          height: 50px;
+          line-height: 90px;
+          border-radius: 50%;
+          position: absolute;
+          top: 60px;
+          left: 50%;
+          margin-left: -25px;
+          z-index: 1;
+          font-family: $headings-font-family;
+        }
+        .testimonial-quote{
+          font-size: 18px;
+          line-height: 38px;
+          font-weight: 400;
+          margin-bottom: 15px;
+          max-width: 390px;
+          margin: 0 auto;
+        }
+        .testimonial-information{
+          margin: 30px 0 0;
+          span{
+            display: block;
+            &.testimonial-name{
+              font-size: 20px;
+              font-weight: 400;
+              color: $black;
+              font-family: $headings-font-family;
+              
+            }
+            &.testimonial-job{
+              font-size: 13px;
+              line-height: 1.1;
+              font-weight: 500;
+              color: $theme-color;
+            }
+          }
+        }
+      }
+      .testimonial-image{
+        position: absolute;
+        bottom: -45px;
+        left: 50%;
+        margin-left: -45px;
+        z-index: 11;
+        img{
+          border-radius: 50%;
+          overflow: hidden;
+          max-width: 90px;
+        }
+      }
+      &:hover{
+        @include box-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
+        .content-inner{
+          &:after{
+            @include scale(1);
+          }
+        }
+        .line{
+          opacity: 1;
+          &:before{
+            width: 100%;
+          }
+          &:after{
+            height: 100%;
+          }
+        }
+        .line-2{
+          opacity: 1;
+          &:before{
+            width: 100%;
+          }
+          &:after{
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+  &.style-2{
+    .testimonial-item{
+      text-align: center;
+      margin-bottom: 30px;
+      position: relative;
+      max-width: 780px;
+      margin: 0 auto;
+      .testimonial-image{
+        @include size(80px, 80px);
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto 35px;
+      }
+      .testimonial-content{
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: 400;
+        color: $black;
+      }
+      .testimonial-information{
+        margin-top: 45px;
+        span{
+          &.testimonial-name{
+            font-size: 20px;
+            font-weight: 500;
+            color: $theme-color;
+            letter-spacing: 0;
+          }
+          &.testimonial-job{
+            font-size: 16px;
+          }
+          &.dot{
+            padding: 0 10px;
+            color: $theme-color;
+          }
+        }
+      }
+      &:hover{
+        .icon-quote{
+          background: $theme-color;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+

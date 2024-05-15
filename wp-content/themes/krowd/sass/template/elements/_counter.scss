@@ -1,0 +1,163 @@
+.milestone-block {
+  .milestone-content{
+    .milestone-number-inner{
+      .symbol{
+        &.after{
+          margin-left: -15px;
+        }
+        &.before{
+          margin-right: -15px;
+        }
+      }
+    }
+  }
+  &.style-1{
+    .box-content{
+      display: block;
+      width: 100%;
+      text-align: center;
+      .milestone-icon{
+        .icon{
+          line-height: 1;
+          display: inline-block;
+          border-radius: 50%;
+          padding: 20px 10px 10px;
+          background: rgba(0, 0, 0, 0.1);
+          color: $theme-color-2;
+          position: relative;
+          border: 2px solid $white;
+          &:before{
+            content: '';
+            @include size(20px, 20px);
+            background: $white;
+            border-radius: 50%;
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            z-index: 11;
+            @include scale(0);
+            transition: all 0.35s;
+          }
+          &:after{
+            content: '';
+            @include size(100%, 100%);
+            top: 0;
+            left: 0;
+            background: $theme-color-2;
+            position: absolute;
+            z-index: 1;
+            opacity: 0;
+            @include scale(1.2);
+            border-radius: 50%;
+            transition: all 0.35s;
+          }
+          i, svg{
+            transition: all 0.35s;
+            color: $theme-color-2;
+            fill: $theme-color-2;
+            position: relative;
+            z-index: 11;
+          }
+        }
+      }
+      .milestone-content{
+        .milestone-number-inner{
+          font-size: 56px;
+          line-height: 1;
+          color: $black;
+          font-weight: 600;
+          @include media-breakpoint-down(lg){
+            font-size: 50px;
+          }
+          @include media-breakpoint-down(md){
+            font-size: 42px;
+          }
+          @include media-breakpoint-down(sm){
+            font-size: 38px;
+          }
+        }
+      }
+    }
+    &:hover{
+      .milestone-icon{
+        .icon{
+          border-color: transparent;
+          &:before{
+            @include scale(1);
+          }
+          &:after{
+            @include size(100%, 100%);
+            opacity: 1;
+            @include scale(1);
+          }
+          svg, i{
+            color: $black;
+            fill: $black;
+            animation: beat 1.5s ease 0s infinite;
+          }
+        }
+      }
+    }
+  }
+  &.style-2{
+    .box-content{
+      text-align: center;
+      padding: 35px 30px;
+      background: $theme-color;
+      position: relative;
+      &:after{
+        content: '';
+        @include size(24px, 24px);
+        background: $theme-color-2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .milestone-icon{
+        display: block;
+        text-align: center;
+        margin: 0 auto 15px;
+        line-height: 1;
+        .icon{
+          color: $white;
+          svg{
+            fill: $white;
+          }
+        }
+      }
+      .milestone-content{
+        .milestone-number-inner{
+          font-size: 60px;
+          line-height: 1;
+          font-weight: 400;
+          color: $white;
+          margin-bottom: 10px;
+          font-family: $headings-font-family;
+          @include media-breakpoint-down(lg){
+            font-size: 50px;
+          }
+          @include media-breakpoint-down(md){
+            font-size: 40px;
+          }
+        }
+        .milestone-text{
+          font-size: 18px;
+          color: $white;
+          line-height: 30px;
+        }
+      }
+    }
+  } 
+  &:hover{
+    .milestone-icon{
+      .icon{
+        svg, i{
+          color: $white;
+          fill: $white;
+          animation: beat 1.5s ease 0s infinite;
+        }
+      }
+    }
+  }
+}

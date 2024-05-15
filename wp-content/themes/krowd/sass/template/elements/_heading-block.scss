@@ -1,0 +1,131 @@
+.gsc-heading{
+  display: block;
+  width: 100%;
+  @include clearfix();
+  .heading-icon{
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .heading-video{
+    margin-bottom: 50px;
+    .video-link{
+      display: inline-block;
+      font-size: 24px;
+      color: $white;
+      background: $theme-color;   
+      text-align: center;
+      position: relative;
+      @include transition(all 0.35s);
+      &:hover{
+        @include scale(0.9);
+      }
+    }
+  }
+  .title{
+    font-size: 56px;
+    position: relative;
+    margin: 0;
+    letter-spacing: -0.8px;
+    @include media-breakpoint-down(lg){
+      font-size: 52px;
+    }
+    @include media-breakpoint-down(md){
+      font-size: 42px;
+    }
+    @include media-breakpoint-down(sm){
+      font-size: 32px;
+    }
+    .highlight, strong{
+      color: $theme-color;
+    }
+  }
+  .sub-title{
+    color: $theme-color;
+    font-size: 18px;
+    padding-left: 0;
+    position: relative;
+    display: inline-block;
+    &:after{
+      content: '';
+      @include size(6px, 6px);
+      background: $theme-color-2;
+      position: absolute;
+      top: 15px;
+      left: 0;
+      z-index: 1;
+      display: none;
+    }
+    &.highlight-dot{
+      padding-left: 15px;
+      &:after{
+        display: block;
+      }
+    }
+  }
+
+  .title-desc{
+    ul{
+      margin-bottom: 0;
+      padding: 0;
+      > li{
+        position: relative;
+        padding-left: 22px;
+        list-style: none;
+        padding-bottom: 6px;
+        &:before{
+          content: '';
+          @include size(12px, 12px);
+          background: url('#{$image-theme-path-base}/bullet-star.png') no-repeat center center;
+          position: absolute;
+          top: 11px;
+          left: 0;
+          z-index: 1;
+        }
+        &:last-child{
+          padding-bottom: 0;
+        }
+      }
+    }
+    p{
+      margin-bottom: 0;
+    }
+  }
+  &.align-center{
+    text-align: center;
+    .content-inner{
+      margin: 0 auto;
+    }
+  }
+  &.align-left{
+    text-align: left;
+    .title-icon{
+      padding-left: 50px;
+    }
+  }
+  &.align-right{
+    text-align: right;
+    .title-desc{
+      float: right;
+      width: 100%;
+      text-align: right;      
+    }
+    .title-icon{
+      padding-right: 50px;
+    }
+  }
+  &.box-align-center{
+    .content-inner{
+      margin: 0 auto;
+    }
+  }
+  &.box-align-left{
+    .content-inner{
+    
+    }
+  }
+  &.box-align-right{
+    .content-inner{
+      float: right;
+    }
+  }
+}

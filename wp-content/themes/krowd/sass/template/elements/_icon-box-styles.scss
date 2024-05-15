@@ -1,0 +1,189 @@
+.gsc-icon-box-styles{
+  &.style-1{
+    position: relative;
+    @include clearfix();
+    text-align: left;
+    .icon-box-inner{
+      display: table;
+      margin-bottom: 25px;
+      @include media-breakpoint-down(md){
+        display: block;
+        width: 100%;
+      }
+      .icon-box-left{
+        display: inline-block;
+        position: relative;
+        display: table-cell;
+        padding-right: 15px;
+        vertical-align: top;
+        @include media-breakpoint-down(md){
+          width: 100%;
+          display: block;
+          padding-right: 0!important;
+          padding-bottom: 20px;
+        }
+      }
+      .box-icon{
+        display: inline-block;
+        background: $theme-color;
+        text-align: center;
+        position: relative;
+        transition: all 0.35s;
+        &:after{
+          content: '';
+          @include size(100%, 100%);
+          top: 0;
+          left: 0;
+          background: $theme-color-2;
+          position: absolute;
+          z-index: 1;
+          opacity: 0;
+          @include scale(1.2);
+          border-radius: 50%;
+          transition: all 0.35s;
+        }
+        &:before{
+          content: '';
+          @include size(20px, 20px);
+          background: $theme-color-2;
+          position: absolute;
+          top: 5px;
+          right: 0;
+          border-radius: 50%;
+          z-index: 11;
+          transition: all 0.35s;
+        }
+        i, svg{
+          color: $white;
+          transition: all 0.35s;
+          position: relative;
+          z-index: 11;
+          fill: $white;
+          height: auto;
+        }
+      }
+    }
+    .icon-box-right{
+      .title{
+        color: $black;
+        font-size: 30px;
+        line-height: 1.4;
+        margin-top: 0;
+        display: block;
+        @include media-breakpoint-down(lg){
+          font-size: 26px;
+        }
+        @include media-breakpoint-down(md){
+          width: 100%;
+          display: block;
+          font-size: 22px;
+        }
+      }
+      .content-inner{
+        margin-top: 40px;
+        padding-top: 40px;
+        position: relative;
+        .desc{
+          font-weight: 500;
+        }
+      }
+    }
+    &:hover{
+      .icon-inner{
+        .box-icon{
+          &:after{
+            @include size(100%, 100%);
+            opacity: 1;
+            @include scale(1.01);
+          }
+          &:before{
+            background: $theme-color;
+          }
+          svg, i{
+            color: $black;
+            fill: $black;
+            animation: beat 1.5s ease 0s infinite;
+          }
+        }
+      }
+    }
+  }
+  &.style-2{
+    position: relative;
+    @include clearfix();
+    text-align: left;
+    .icon-inner{
+      display: inline-block;
+      position: relative;
+    }
+    .box-icon{
+      display: inline-block;
+      background: $theme-color;
+      text-align: center;
+      position: relative;
+      transition: all 0.35s;
+      &:after{
+        content: '';
+        @include size(100%, 100%);
+        top: 0;
+        left: 0;
+        background: $theme-color-2;
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        @include scale(1.2);
+        border-radius: 50%;
+        transition: all 0.35s;
+      }
+      &:before{
+        content: '';
+        @include size(20px, 20px);
+        background: $theme-color-2;
+        position: absolute;
+        top: 5px;
+        right: 0;
+        border-radius: 50%;
+        z-index: 11;
+        transition: all 0.35s;
+      }
+      i, svg{
+        color: $white;
+        transition: all 0.35s;
+        position: relative;
+        z-index: 11;
+        fill: $white;
+        height: auto;
+      }
+    }
+    .title{
+      color: $black;
+      font-size: 30px;
+      display: block;
+      line-height: 1.4;
+      margin-bottom: 0;
+    }
+    .content-inner{
+      margin-top: 20px;
+      position: relative;
+    }
+    &:hover{
+      .icon-inner{
+        .box-icon{
+          &:after{
+            @include size(100%, 100%);
+            opacity: 1;
+            @include scale(1.01);
+          }
+          &:before{
+            background: $theme-color;
+          }
+          svg, i{
+            color: $black;
+            fill: $black;
+            animation: beat 1.5s ease 0s infinite;
+          }
+        }
+      }
+    }
+  }
+}

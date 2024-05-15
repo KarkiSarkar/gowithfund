@@ -1,0 +1,72 @@
+.gsc-icon-box-group{
+   &.style-1{
+      .icon-box-item-content{
+         position: relative;
+         .icon-box-item-inner{
+            position: relative;
+            @include clearfix();
+            text-align: left;
+            background: $white;
+            padding: 40px 25px;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            margin: 0 auto;
+            text-align: center;
+            &:after{
+               content: '';
+               @include size(0, 0);
+               position: absolute;
+               top: -1px;
+               right: -1px;
+               z-index: 11;
+               background: $theme-color-2;
+               transition: all 0.35s;
+            }
+            .box-icon{
+               display: inline-block;
+               i{
+                 color: $theme-color;
+               }
+               svg{
+                 fill: $theme-color;
+                 height: auto;
+                 transition: all 0.35s;
+               }
+            }
+            .title{
+              color: $black;
+              font-size: 18px;
+              font-weight: 500;
+              display: block;
+              line-height: 1.4;
+              margin-bottom: 0;
+              font-family: $font-family-base;
+            }
+            .content-inner{
+               margin-top: 20px;
+               position: relative;
+            }
+         }
+         &:hover, &.active{
+            .icon-box-item-inner{
+               &:after{
+                  @include size(18px, 18px);
+               }
+               .icon-inner{
+                 .box-icon{
+                   svg, i{
+                     animation: beat 1.5s ease 0s infinite;
+                   }
+                 }
+               }
+            }
+         }
+         .link-overlay{
+            position: absolute;
+            @include size(100%, 100%);
+            top: 0;
+            left: 0;
+            z-index: 11;
+         }
+      }
+   }
+}

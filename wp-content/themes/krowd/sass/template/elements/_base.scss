@@ -1,0 +1,23 @@
+.elementor-widget-icon-box, .elementor-widget-icon-list{
+   &.icon-color-theme{
+      .elementor-icon, .elementor-icon-list-icon{
+         color: $theme-color;  
+      }
+   }
+   &.icon-color-theme-second{
+      .elementor-icon, .elementor-icon-list-icon{
+         color: $theme-color-2;  
+      }
+   }
+   &.hover-color-theme{
+      a:hover{
+         color: $theme-color!important;
+      }
+   }
+   &.hover-color-theme-second{
+      a:hover, a:hover *{
+         color: $theme-color-2!important;
+      }
+   }
+}
+

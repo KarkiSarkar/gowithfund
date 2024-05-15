@@ -1,0 +1,47 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+
+//Fonts
+// --------------------------------------------------
+
+// Colors
+$white                     : #ffffff !default;
+$black                     : #1b1f2e !default;
+$nocolor                   : transparent !default;
+$theme-color               : #674DF0 !default;
+$theme-color-2             : #29F0B4 !default;
+$border-color              : #E9E9EE !default; 
+ 
+// Variables
+// --------------------------------------------------
+$image-theme-path-base  :'../images/' !default;
+$font-path              : '../fonts/';
+$woo-font-path          : '../fonts/woocommerce/' !default;
+
+// Theme Margin, Padding
+$theme-margin:             30px !default;
+$theme-padding:            30px !default; 
+
+$copyright-padding:        30px 0 !default;
+
+//Color Skins Widget
+$widget-blue               : #0068AA !default;
+$widget-orange             : #EB5B00 !default;
+$widget-green              : #00884F !default;
+$widget-pink               : #ED1F58 !default;
+$widget-brown              : #4B393D !default;
+$widget-cornflower-blue    : #00A3DB !default;
+
+:root{
+   --tec-font-family-sans-serif: "Poppins", sans-serif;
+  --tec-color-accent-primary : #674DF0;
+  --tec-font-size-4: 16px;
+  --tec-line-height-2: 28px;
+  --tec-spacer-14: 60px;
+  --tec-spacer-13: 60px;
+}
+
+
+@function url-friendly-colour($colour) {
+   @return '%23' + str-slice('#{$colour}', 2, -1)
+}

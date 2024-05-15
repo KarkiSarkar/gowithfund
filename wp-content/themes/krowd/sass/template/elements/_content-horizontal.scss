@@ -1,0 +1,119 @@
+.gva-content-horizontal{
+   &.column-2{
+      .content-hover-horizontal{
+         .content-item{
+            width: 33.33%;
+            .image{
+               width: 295px;
+            }
+            &.active{
+               width: 66.66%;
+            }
+         }
+      }
+   }
+   &.column-3{
+      .content-hover-horizontal{
+         .content-item{
+            width: 25%;
+            .image{
+               width: 295px;
+            }
+            &.active{
+               width: 50%;
+            }
+         }
+      }
+   }
+   &.column-4{
+      .content-hover-horizontal{
+         .content-item{
+            width: 20%;
+            .image{
+               width: 236px;
+            }
+            .content{
+               padding: 20px;
+            }
+            &.active{
+               width: 40%;
+            }
+         }
+      }
+   }
+   .content-hover-horizontal{
+      margin-left: -5px;
+      margin-right: -5px;
+      .content-item{
+         padding-left: 5px;
+         padding-right: 5px;
+         float: left;
+         transition: all 0.35s;
+         position: relative;
+         @include media-breakpoint-down(md){
+            width: 100%!important;
+            margin-bottom: 20px;
+         }
+         .content-inner{
+            position: relative;
+         }
+         .image{
+            z-index: 9;
+            position: relative;
+            width: 295px;
+            @include media-breakpoint-down(md){
+               width: 50%!important;
+            }
+            @media(max-width: 560px){
+               width: 100%!important;
+            }
+         }
+         .content{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            background: $white;
+            border: 1px solid $border-color;
+            border-left: 0;
+            transition: all 0.35s;
+            padding: 45px 45px 15px;
+            overflow: hidden;
+            @include media-breakpoint-down(lg){
+               padding: 30px 30px 10px;
+            }
+            @include media-breakpoint-down(md){
+               width: calc( 50% + 5px)!important;
+            }
+            @media(max-width: 560px){
+               width: 100%!important;
+               position: relative;
+               border: 1px solid $border-color;
+               border-top: 0;
+            }
+            .title{
+               font-size: 20px;
+            }
+            .action{
+               margin-top: 15px;
+               svg{
+                  width: 20px;
+                  height: auto;
+                  fill: $theme-color;
+               }
+            }
+         }
+         &.active{
+            .content{
+               width: calc( 50% + 5px);
+               right: 1px;
+            }
+         }
+         &:hover{
+            cursor: pointer;
+         }
+      }
+   }
+}

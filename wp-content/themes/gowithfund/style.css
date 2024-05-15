@@ -1,0 +1,54 @@
+/*
+Theme Name:GoWithFund
+Theme URI: http://gaviasthemes.com/krowd/
+Description: GoWithFund Theme. Child theme of krowd
+Author: Karki
+Author URI: http://example.com
+Template: krowd
+Version: 1.0.0
+*/
+
+.btn-theme-2 {
+    color: #ffffff !important;
+}
+
+.custom-breadcrumb .breadcrumb-container-inner .heading-title {
+    color: #ffffff !important;
+}
+
+.wpcf7-submit,
+.gsc-image-content.skin-v3 .box-content .desc {
+    background: none !important;
+    color: #ffffff !important;
+}
+
+.disclaimer .main-page-content p,
+.disclaimer .main-page-content li,
+.privacy-policy .main-page-content p,
+.privacy-policy .main-page-content li,
+.terms-and-conditions .main-page-content p,
+.terms-and-conditions .main-page-content li,
+.return-and-refund-policy .main-page-content p,
+.return-and-refund-policy .main-page-content li {
+    color: black !important;
+}
+
+.disclaimer .main-page-content strong,
+.privacy-policy .main-page-content strong,
+.terms-and-conditions .main-page-content strong,
+.return-and-refund-policy .main-page-content strong
+{
+    color: #00A9A5 !important;
+}
+
+.wpneo-tooltip-empty{
+    display: none;
+}
+
+.btn-theme-2:after{
+    background: transparent!important;
+}
+
+.btn-black:hover , .post:hover .content-inner .read-more .icon {
+    color: #ffffff!important;
+  }
