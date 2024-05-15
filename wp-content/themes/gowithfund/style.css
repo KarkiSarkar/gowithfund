@@ -29,8 +29,16 @@ Version: 1.0.0
 .terms-and-conditions .main-page-content p,
 .terms-and-conditions .main-page-content li,
 .return-and-refund-policy .main-page-content p,
-.return-and-refund-policy .main-page-content li {
+.return-and-refund-policy .main-page-content li,
+.single-post .content-inner p{
     color: black !important;
+}
+
+.single-post .content-inner a{
+    color: #00A9A5!important;
+}
+.single-post .content-inner a:hover{
+    color: #0C2D30!important;
 }
 
 .disclaimer .main-page-content strong,
@@ -38,7 +46,7 @@ Version: 1.0.0
 .terms-and-conditions .main-page-content strong,
 .return-and-refund-policy .main-page-content strong
 {
-    color: #00A9A5 !important;
+    color: #000000 !important;
 }
 
 .wpneo-tooltip-empty{
@@ -52,9 +60,72 @@ Version: 1.0.0
 .btn-black:hover , .post:hover .content-inner .read-more .icon {
     color: #ffffff!important;
   }
-  .h1{
-    color:#00A9A5;
+  .btn-theme:hover, .wpcf7-list-item-label{
+      color: #ffffff!important;
   }
-  .title-desc > p {
-    color: red!important;
-  }
+  
+  /*#reward_options > p{*/
+  /*    display: none;*/
+  /*}*/
+  
+  .hidden {
+    display: none;
+}
+.wc-block-components-checkout-return-to-cart-button{
+    display: none!important;
+}
+
+.post-type-archive-success_story .read-more> a > svg{
+    width: 20px!important;
+}
+.post-type-archive-success_story .posts-grids article.success_story{
+    border: 1px solid #00A9A5;
+    padding: 20px;
+    box-shadow: -1px 2px 5px #aaa;
+}
+
+#menu-main-menu-2{
+    background: #ffffff!important;
+}
+/*.star-rating{*/
+/*    display: none;*/
+/*}*/
+.single-product .wpneo-campaign-creator-avatar{
+    display: none!important;
+}
+
+ .wp-crowd-btn-primary:hover, .wp-crowd-btn:hover{
+    color: white!important;
+}
+.elementor-icon-box-description > a{
+    color: #ffffff!important;
+}
+.elementor-icon-box-description > a:hover{
+    color: #0C2D30!important;
+}
+.single-product p >span a,.single-product p > a, .privacy-policy .main-page-content a, .return-and-refund-policy .main-page-content a, .disclaimer .main-page-content a, .terms-and-conditions .main-page-content a{
+    color: #00A9A5;
+}
+.single-product p>span a:hover, .single-product p > a:hover{
+    color: #0C2D30!important;
+}
+strong{
+    color: #000000!important;
+}
+.menu-item-10773{
+	display: none!important;
+}
+
+@media screen and (max-width: 1000px) {
+  .menu-item-10773{
+	display: block!important;
+}
+}
+
+.tab-description > p , .wpneo-single-short-description > div > p{
+    text-align: justify; /* Grow, shrink, use auto width */
+}
+
+.wpneo-list-details .campaign-top .campaign-single-left .woocommerce-product-gallery__trigger:after{
+    /*display: none;*/
+}

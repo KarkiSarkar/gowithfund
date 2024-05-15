@@ -1,0 +1,4 @@
+[27-Jan-2024 14:50:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/easycrowdfunding/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/easycrowdfunding/public_html/wp-includes/blocks/index.php on line 8

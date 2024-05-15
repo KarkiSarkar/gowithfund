@@ -1,0 +1,397 @@
+0000.003 () Opened log file at time: Thu, 13 Jul 2023 11:07:29 +0000 on https://funds.nydoz.com
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.20 (fpm-fcgi, Linux server.nydoz.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 10.6.14-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 31.3M | 34M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.051 () Free space on disk containing Updraft's temporary directory: 148006.9 MB
+0000.073 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Thu, 13 Jul 2023 11:07:30 +0000 on https://funds.nydoz.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.20 (fpm-fcgi, Linux server.nydoz.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 10.6.14-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 29.4M | 32M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.034 () Free space on disk containing Updraft's temporary directory: 148006.9 MB
+0000.047 () Ensuring WP_Filesystem is setup for a restore
+0000.048 () WP_Filesystem is setup and ready for a restore
+0000.051 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["Nhv7QGk4_options","Nhv7QGk4_users","Nhv7QGk4_usermeta","Nhv7QGk4_actionscheduler_actions","Nhv7QGk4_actionscheduler_claims","Nhv7QGk4_actionscheduler_groups","Nhv7QGk4_actionscheduler_logs","Nhv7QGk4_commentmeta","Nhv7QGk4_comments","Nhv7QGk4_links","Nhv7QGk4_postmeta","Nhv7QGk4_posts","Nhv7QGk4_tec_events","Nhv7QGk4_tec_occurrences","Nhv7QGk4_term_relationships","Nhv7QGk4_term_taxonomy","Nhv7QGk4_termmeta","Nhv7QGk4_terms","Nhv7QGk4_wc_category_lookup","Nhv7QGk4_wc_product_meta_lookup","Nhv7QGk4_wc_reserved_stock","Nhv7QGk4_wc_tax_rate_classes","Nhv7QGk4_woocommerce_order_itemmeta","Nhv7QGk4_woocommerce_payment_tokenmeta","Nhv7QGk4_ctf_feed_caches","Nhv7QGk4_ctf_feed_locator","Nhv7QGk4_ctf_feeds","Nhv7QGk4_ctf_feeds_posts","Nhv7QGk4_ctf_posts","Nhv7QGk4_e_events","Nhv7QGk4_e_submissions","Nhv7QGk4_e_submissions_actions_log","Nhv7QGk4_e_submissions_values","Nhv7QGk4_revslider_css","Nhv7QGk4_revslider_css_bkp","Nhv7QGk4_revslider_layer_animations","Nhv7QGk4_revslider_layer_animations_bkp","Nhv7QGk4_revslider_navigations","Nhv7QGk4_revslider_navigations_bkp","Nhv7QGk4_revslider_sliders","Nhv7QGk4_revslider_sliders_bkp","Nhv7QGk4_revslider_slides","Nhv7QGk4_revslider_slides_bkp","Nhv7QGk4_revslider_static_slides","Nhv7QGk4_revslider_static_slides_bkp","Nhv7QGk4_wc_admin_note_actions","Nhv7QGk4_wc_admin_notes","Nhv7QGk4_wc_customer_lookup","Nhv7QGk4_wc_download_log","Nhv7QGk4_wc_order_coupon_lookup","Nhv7QGk4_wc_order_product_lookup","Nhv7QGk4_wc_order_stats","Nhv7QGk4_wc_order_tax_lookup","Nhv7QGk4_wc_product_attributes_lookup","Nhv7QGk4_wc_product_download_directories","Nhv7QGk4_wc_rate_limits","Nhv7QGk4_wc_webhooks","Nhv7QGk4_woocommerce_api_keys","Nhv7QGk4_woocommerce_attribute_taxonomies","Nhv7QGk4_woocommerce_downloadable_product_permissions","Nhv7QGk4_woocommerce_log","Nhv7QGk4_woocommerce_order_items","Nhv7QGk4_woocommerce_payment_tokens","Nhv7QGk4_woocommerce_sessions","Nhv7QGk4_woocommerce_shipping_zone_locations","Nhv7QGk4_woocommerce_shipping_zone_methods","Nhv7QGk4_woocommerce_shipping_zones","Nhv7QGk4_woocommerce_tax_rate_locations","Nhv7QGk4_woocommerce_tax_rates"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.051 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.053 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.054 () Entity: db
+0000.054 () restore_backup(backup_file=backup_2023-07-13-1058_Nydoz_1105a51517a5-db.gz, type=db, info=a:0:{}, last_one=)
+0000.054 () Unpacking backup... (backup_2023-07-13-1058_Nydoz_1105a51517a5-db.gz, 1.1 Mb)
+0000.054 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.057 () Database successfully unpacked
+0000.057 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.057 () Using direct MySQL access; value of use_mysqli is: 1
+0000.057 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.077 () Max packet size: 256 MB
+0000.077 () Entering maintenance mode
+0000.077 () Enabling Maintenance mode&#8230;
+0000.085 () Backup of: https://new.nydoz.com
+0000.102 () Content URL: https://new.nydoz.com/wp-content
+0000.102 () Uploads URL: https://new.nydoz.com/wp-content/uploads
+0000.102 () Old table prefix: Nhv7QGk4_
+0000.103 () Old ABSPATH: /home/newnydoz/public_html/
+0000.103 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.103 () Site information: multisite=0
+0000.103 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.104 () New table prefix: sj_
+0000.108 () Processing table (InnoDB): Nhv7QGk4_options - will restore as: sj_options
+0000.239 () Atomic restore: dropping original table (5tJcmw_options)
+0000.241 () Atomic restore: renaming new table (sj_options) to final table name (5tJcmw_options)
+0000.243 () Restoring prior UD configuration (table: 5tJcmw_options; keys: 101)
+0000.298 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.298 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.298 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.299 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.299 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.299 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.308 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.313 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.314 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.336 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.337 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, wp-content/plugins/updraftplus/options.php)
+0000.393 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.393 () Options table fields changed OK
+0000.397 () Search and replacing table: 5tJcmw_options: rows: 683
+0000.404 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0000.404 () Incomplete object detected in database: Elementor\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0000.464 () Processing table (InnoDB): Nhv7QGk4_users - will restore as: sj_users
+0000.473 () Atomic restore: dropping original table (5tJcmw_users)
+0000.475 () Atomic restore: renaming new table (sj_users) to final table name (5tJcmw_users)
+0000.478 () Search and replacing table: 5tJcmw_users: rows: 3
+0000.478 () Processing table (InnoDB): Nhv7QGk4_usermeta - will restore as: sj_usermeta
+0000.487 () Atomic restore: dropping original table (5tJcmw_usermeta)
+0000.488 () Atomic restore: renaming new table (sj_usermeta) to final table name (5tJcmw_usermeta)
+0000.490 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.491 () Usermeta table fields changed OK
+0000.492 () Search and replacing table: 5tJcmw_usermeta: rows: 117
+0000.493 () Processing table (InnoDB): Nhv7QGk4_actionscheduler_actions - will restore as: sj_actionscheduler_actions
+0000.503 () Atomic restore: dropping original table (5tJcmw_actionscheduler_actions)
+0000.504 () Atomic restore: renaming new table (sj_actionscheduler_actions) to final table name (5tJcmw_actionscheduler_actions)
+0000.508 () Search and replacing table: 5tJcmw_actionscheduler_actions: rows: 25
+0000.508 () Incomplete object detected in database: ActionScheduler_SimpleSchedule; Search and replace will be skipped for these entries
+0000.508 () Incomplete object detected in database: ActionScheduler_IntervalSchedule; Search and replace will be skipped for these entries
+0000.508 () Incomplete object detected in database: ActionScheduler_NullSchedule; Search and replace will be skipped for these entries
+0000.509 () Processing table (InnoDB): Nhv7QGk4_actionscheduler_claims - will restore as: sj_actionscheduler_claims
+0000.514 () Atomic restore: dropping original table (5tJcmw_actionscheduler_claims)
+0000.515 () Atomic restore: renaming new table (sj_actionscheduler_claims) to final table name (5tJcmw_actionscheduler_claims)
+0000.518 () Search and replacing table: 5tJcmw_actionscheduler_claims: rows: 0
+0000.519 () Processing table (InnoDB): Nhv7QGk4_actionscheduler_groups - will restore as: sj_actionscheduler_groups
+0000.525 () Atomic restore: dropping original table (5tJcmw_actionscheduler_groups)
+0000.526 () Atomic restore: renaming new table (sj_actionscheduler_groups) to final table name (5tJcmw_actionscheduler_groups)
+0000.529 () Search and replacing table: 5tJcmw_actionscheduler_groups: rows: 2
+0000.529 () Processing table (InnoDB): Nhv7QGk4_actionscheduler_logs - will restore as: sj_actionscheduler_logs
+0000.536 () Atomic restore: dropping original table (5tJcmw_actionscheduler_logs)
+0000.538 () Atomic restore: renaming new table (sj_actionscheduler_logs) to final table name (5tJcmw_actionscheduler_logs)
+0000.540 () Search and replacing table: 5tJcmw_actionscheduler_logs: rows: 73
+0000.541 () Processing table (InnoDB): Nhv7QGk4_commentmeta - will restore as: sj_commentmeta
+0000.549 () Atomic restore: dropping original table (5tJcmw_commentmeta)
+0000.551 () Atomic restore: renaming new table (sj_commentmeta) to final table name (5tJcmw_commentmeta)
+0000.554 () Search and replacing table: 5tJcmw_commentmeta: rows: 1
+0000.554 () Processing table (InnoDB): Nhv7QGk4_comments - will restore as: sj_comments
+0000.564 () Atomic restore: dropping original table (5tJcmw_comments)
+0000.566 () Atomic restore: renaming new table (sj_comments) to final table name (5tJcmw_comments)
+0000.569 () Search and replacing table: 5tJcmw_comments: rows: 11
+0000.570 () Processing table (InnoDB): Nhv7QGk4_links - will restore as: sj_links
+0000.575 () Atomic restore: dropping original table (5tJcmw_links)
+0000.577 () Atomic restore: renaming new table (sj_links) to final table name (5tJcmw_links)
+0000.579 () Search and replacing table: 5tJcmw_links: rows: 0
+0000.579 () Processing table (InnoDB): Nhv7QGk4_postmeta - will restore as: sj_postmeta
+0000.830 () Database queries processed: 50 in 0.77 seconds
+0000.831 () Atomic restore: dropping original table (5tJcmw_postmeta)
+0000.833 () Atomic restore: renaming new table (sj_postmeta) to final table name (5tJcmw_postmeta)
+0000.836 () Search and replacing table: 5tJcmw_postmeta: rows: 5059
+0001.126 () Searching and replacing reached row: 5000
+0001.130 () Processing table (InnoDB): Nhv7QGk4_posts - will restore as: sj_posts
+0001.224 () Atomic restore: dropping original table (5tJcmw_posts)
+0001.226 () Atomic restore: renaming new table (sj_posts) to final table name (5tJcmw_posts)
+0001.229 () Skipping search/replace on GUID column in posts table
+0001.230 () Search and replacing table: 5tJcmw_posts: rows: 386
+0001.251 () Processing table (InnoDB): Nhv7QGk4_tec_events - will restore as: sj_tec_events
+0001.259 () Atomic restore: dropping original table (5tJcmw_tec_events)
+0001.260 () Atomic restore: renaming new table (sj_tec_events) to final table name (5tJcmw_tec_events)
+0001.275 () Search and replacing table: 5tJcmw_tec_events: rows: 4
+0001.276 () Processing table (InnoDB): Nhv7QGk4_tec_occurrences - will restore as: sj_tec_occurrences
+0001.286 () Atomic restore: dropping original table (5tJcmw_tec_occurrences)
+0001.287 () Atomic restore: renaming new table (sj_tec_occurrences) to final table name (5tJcmw_tec_occurrences)
+0001.290 () Search and replacing table: 5tJcmw_tec_occurrences: rows: 4
+0001.290 () Processing table (InnoDB): Nhv7QGk4_term_relationships - will restore as: sj_term_relationships
+0001.307 () Atomic restore: dropping original table (5tJcmw_term_relationships)
+0001.309 () Atomic restore: renaming new table (sj_term_relationships) to final table name (5tJcmw_term_relationships)
+0001.321 () Search and replacing table: 5tJcmw_term_relationships: rows: 192
+0001.323 () Processing table (InnoDB): Nhv7QGk4_term_taxonomy - will restore as: sj_term_taxonomy
+0001.333 () Atomic restore: dropping original table (5tJcmw_term_taxonomy)
+0001.335 () Atomic restore: renaming new table (sj_term_taxonomy) to final table name (5tJcmw_term_taxonomy)
+0001.344 () Search and replacing table: 5tJcmw_term_taxonomy: rows: 101
+0001.345 () Processing table (InnoDB): Nhv7QGk4_termmeta - will restore as: sj_termmeta
+0001.359 () Atomic restore: dropping original table (5tJcmw_termmeta)
+0001.361 () Atomic restore: renaming new table (sj_termmeta) to final table name (5tJcmw_termmeta)
+0001.364 () Search and replacing table: 5tJcmw_termmeta: rows: 61
+0001.364 () Processing table (InnoDB): Nhv7QGk4_terms - will restore as: sj_terms
+0001.373 () Atomic restore: dropping original table (5tJcmw_terms)
+0001.375 () Atomic restore: renaming new table (sj_terms) to final table name (5tJcmw_terms)
+0001.378 () Search and replacing table: 5tJcmw_terms: rows: 101
+0001.379 () Processing table (InnoDB): Nhv7QGk4_wc_category_lookup - will restore as: sj_wc_category_lookup
+0001.386 () Atomic restore: dropping original table (5tJcmw_wc_category_lookup)
+0001.387 () Atomic restore: renaming new table (sj_wc_category_lookup) to final table name (5tJcmw_wc_category_lookup)
+0001.390 () Search and replacing table: 5tJcmw_wc_category_lookup: rows: 17
+0001.391 () Processing table (InnoDB): Nhv7QGk4_wc_product_meta_lookup - will restore as: sj_wc_product_meta_lookup
+0001.400 () Atomic restore: dropping original table (5tJcmw_wc_product_meta_lookup)
+0001.401 () Atomic restore: renaming new table (sj_wc_product_meta_lookup) to final table name (5tJcmw_wc_product_meta_lookup)
+0001.405 () Search and replacing table: 5tJcmw_wc_product_meta_lookup: rows: 2
+0001.405 () Processing table (InnoDB): Nhv7QGk4_wc_reserved_stock - will restore as: sj_wc_reserved_stock
+0001.411 () Atomic restore: dropping original table (5tJcmw_wc_reserved_stock)
+0001.412 () Atomic restore: renaming new table (sj_wc_reserved_stock) to final table name (5tJcmw_wc_reserved_stock)
+0001.415 () Search and replacing table: 5tJcmw_wc_reserved_stock: rows: 0
+0001.415 () Processing table (InnoDB): Nhv7QGk4_wc_tax_rate_classes - will restore as: sj_wc_tax_rate_classes
+0001.423 () Atomic restore: dropping original table (5tJcmw_wc_tax_rate_classes)
+0001.425 () Atomic restore: renaming new table (sj_wc_tax_rate_classes) to final table name (5tJcmw_wc_tax_rate_classes)
+0001.428 () Search and replacing table: 5tJcmw_wc_tax_rate_classes: rows: 2
+0001.428 () Processing table (InnoDB): Nhv7QGk4_woocommerce_order_itemmeta - will restore as: sj_woocommerce_order_itemmeta
+0001.435 () Atomic restore: dropping original table (5tJcmw_woocommerce_order_itemmeta)
+0001.436 () Atomic restore: renaming new table (sj_woocommerce_order_itemmeta) to final table name (5tJcmw_woocommerce_order_itemmeta)
+0001.439 () Search and replacing table: 5tJcmw_woocommerce_order_itemmeta: rows: 0
+0001.439 () Processing table (InnoDB): Nhv7QGk4_woocommerce_payment_tokenmeta - will restore as: sj_woocommerce_payment_tokenmeta
+0001.445 () Atomic restore: dropping original table (5tJcmw_woocommerce_payment_tokenmeta)
+0001.446 () Atomic restore: renaming new table (sj_woocommerce_payment_tokenmeta) to final table name (5tJcmw_woocommerce_payment_tokenmeta)
+0001.449 () Search and replacing table: 5tJcmw_woocommerce_payment_tokenmeta: rows: 0
+0001.450 () Processing table (InnoDB): Nhv7QGk4_ctf_feed_caches - will restore as: sj_ctf_feed_caches
+0001.458 () Atomic restore: dropping original table (5tJcmw_ctf_feed_caches)
+0001.459 () Atomic restore: renaming new table (sj_ctf_feed_caches) to final table name (5tJcmw_ctf_feed_caches)
+0001.463 () Search and replacing table: 5tJcmw_ctf_feed_caches: rows: 1
+0001.464 () Processing table (InnoDB): Nhv7QGk4_ctf_feed_locator - will restore as: sj_ctf_feed_locator
+0001.472 () Atomic restore: dropping original table (5tJcmw_ctf_feed_locator)
+0001.474 () Atomic restore: renaming new table (sj_ctf_feed_locator) to final table name (5tJcmw_ctf_feed_locator)
+0001.477 () Search and replacing table: 5tJcmw_ctf_feed_locator: rows: 0
+0001.477 () Processing table (InnoDB): Nhv7QGk4_ctf_feeds - will restore as: sj_ctf_feeds
+0001.483 () Atomic restore: dropping original table (5tJcmw_ctf_feeds)
+0001.484 () Atomic restore: renaming new table (sj_ctf_feeds) to final table name (5tJcmw_ctf_feeds)
+0001.486 () Search and replacing table: 5tJcmw_ctf_feeds: rows: 0
+0001.486 () Processing table (InnoDB): Nhv7QGk4_ctf_feeds_posts - will restore as: sj_ctf_feeds_posts
+0001.492 () Atomic restore: dropping original table (5tJcmw_ctf_feeds_posts)
+0001.494 () Database queries processed: 100 in 1.43 seconds
+0001.494 () Atomic restore: renaming new table (sj_ctf_feeds_posts) to final table name (5tJcmw_ctf_feeds_posts)
+0001.498 () Search and replacing table: 5tJcmw_ctf_feeds_posts: rows: 0
+0001.498 () Processing table (InnoDB): Nhv7QGk4_ctf_posts - will restore as: sj_ctf_posts
+0001.503 () Atomic restore: dropping original table (5tJcmw_ctf_posts)
+0001.504 () Atomic restore: renaming new table (sj_ctf_posts) to final table name (5tJcmw_ctf_posts)
+0001.507 () Search and replacing table: 5tJcmw_ctf_posts: rows: 0
+0001.507 () Processing table (InnoDB): Nhv7QGk4_e_events - will restore as: sj_e_events
+0001.514 () Atomic restore: dropping original table (5tJcmw_e_events)
+0001.515 () Atomic restore: renaming new table (sj_e_events) to final table name (5tJcmw_e_events)
+0001.517 () Search and replacing table: 5tJcmw_e_events: rows: 0
+0001.517 () Processing table (InnoDB): Nhv7QGk4_e_submissions - will restore as: sj_e_submissions
+0001.536 () Atomic restore: dropping original table (5tJcmw_e_submissions)
+0001.538 () Atomic restore: renaming new table (sj_e_submissions) to final table name (5tJcmw_e_submissions)
+0001.541 () Search and replacing table: 5tJcmw_e_submissions: rows: 0
+0001.541 () Processing table (InnoDB): Nhv7QGk4_e_submissions_actions_log - will restore as: sj_e_submissions_actions_log
+0001.554 () Atomic restore: dropping original table (5tJcmw_e_submissions_actions_log)
+0001.555 () Atomic restore: renaming new table (sj_e_submissions_actions_log) to final table name (5tJcmw_e_submissions_actions_log)
+0001.559 () Search and replacing table: 5tJcmw_e_submissions_actions_log: rows: 0
+0001.560 () Processing table (InnoDB): Nhv7QGk4_e_submissions_values - will restore as: sj_e_submissions_values
+0001.568 () Atomic restore: dropping original table (5tJcmw_e_submissions_values)
+0001.570 () Atomic restore: renaming new table (sj_e_submissions_values) to final table name (5tJcmw_e_submissions_values)
+0001.574 () Search and replacing table: 5tJcmw_e_submissions_values: rows: 0
+0001.574 () Processing table (InnoDB): Nhv7QGk4_revslider_css - will restore as: sj_revslider_css
+0001.592 () Atomic restore: dropping original table (5tJcmw_revslider_css)
+0001.593 () Atomic restore: renaming new table (sj_revslider_css) to final table name (5tJcmw_revslider_css)
+0001.608 () Search and replacing table: 5tJcmw_revslider_css: rows: 109
+0001.618 () Processing table (InnoDB): Nhv7QGk4_revslider_css_bkp - will restore as: sj_revslider_css_bkp
+0001.649 () Atomic restore: dropping original table (5tJcmw_revslider_css_bkp)
+0001.651 () Atomic restore: renaming new table (sj_revslider_css_bkp) to final table name (5tJcmw_revslider_css_bkp)
+0001.655 () Search and replacing table: 5tJcmw_revslider_css_bkp: rows: 47
+0001.657 () Processing table (InnoDB): Nhv7QGk4_revslider_layer_animations - will restore as: sj_revslider_layer_animations
+0001.663 () Atomic restore: dropping original table (5tJcmw_revslider_layer_animations)
+0001.664 () Atomic restore: renaming new table (sj_revslider_layer_animations) to final table name (5tJcmw_revslider_layer_animations)
+0001.667 () Search and replacing table: 5tJcmw_revslider_layer_animations: rows: 0
+0001.667 () Processing table (InnoDB): Nhv7QGk4_revslider_layer_animations_bkp - will restore as: sj_revslider_layer_animations_bkp
+0001.673 () Atomic restore: dropping original table (5tJcmw_revslider_layer_animations_bkp)
+0001.674 () Atomic restore: renaming new table (sj_revslider_layer_animations_bkp) to final table name (5tJcmw_revslider_layer_animations_bkp)
+0001.677 () Search and replacing table: 5tJcmw_revslider_layer_animations_bkp: rows: 0
+0001.677 () Processing table (InnoDB): Nhv7QGk4_revslider_navigations - will restore as: sj_revslider_navigations
+0001.683 () Atomic restore: dropping original table (5tJcmw_revslider_navigations)
+0001.685 () Atomic restore: renaming new table (sj_revslider_navigations) to final table name (5tJcmw_revslider_navigations)
+0001.688 () Search and replacing table: 5tJcmw_revslider_navigations: rows: 0
+0001.688 () Processing table (InnoDB): Nhv7QGk4_revslider_navigations_bkp - will restore as: sj_revslider_navigations_bkp
+0001.693 () Atomic restore: dropping original table (5tJcmw_revslider_navigations_bkp)
+0001.694 () Atomic restore: renaming new table (sj_revslider_navigations_bkp) to final table name (5tJcmw_revslider_navigations_bkp)
+0001.697 () Search and replacing table: 5tJcmw_revslider_navigations_bkp: rows: 0
+0001.697 () Processing table (InnoDB): Nhv7QGk4_revslider_sliders - will restore as: sj_revslider_sliders
+0001.708 () Atomic restore: dropping original table (5tJcmw_revslider_sliders)
+0001.709 () Atomic restore: renaming new table (sj_revslider_sliders) to final table name (5tJcmw_revslider_sliders)
+0001.712 () Search and replacing table: 5tJcmw_revslider_sliders: rows: 3
+0001.714 () Processing table (InnoDB): Nhv7QGk4_revslider_sliders_bkp - will restore as: sj_revslider_sliders_bkp
+0001.720 () Atomic restore: dropping original table (5tJcmw_revslider_sliders_bkp)
+0001.721 () Atomic restore: renaming new table (sj_revslider_sliders_bkp) to final table name (5tJcmw_revslider_sliders_bkp)
+0001.725 () Search and replacing table: 5tJcmw_revslider_sliders_bkp: rows: 0
+0001.725 () Processing table (InnoDB): Nhv7QGk4_revslider_slides - will restore as: sj_revslider_slides
+0001.737 () Atomic restore: dropping original table (5tJcmw_revslider_slides)
+0001.738 () Atomic restore: renaming new table (sj_revslider_slides) to final table name (5tJcmw_revslider_slides)
+0001.741 () Search and replacing table: 5tJcmw_revslider_slides: rows: 6
+0001.748 () Processing table (InnoDB): Nhv7QGk4_revslider_slides_bkp - will restore as: sj_revslider_slides_bkp
+0001.756 () Atomic restore: dropping original table (5tJcmw_revslider_slides_bkp)
+0001.757 () Atomic restore: renaming new table (sj_revslider_slides_bkp) to final table name (5tJcmw_revslider_slides_bkp)
+0001.768 () Search and replacing table: 5tJcmw_revslider_slides_bkp: rows: 0
+0001.768 () Processing table (InnoDB): Nhv7QGk4_revslider_static_slides - will restore as: sj_revslider_static_slides
+0001.783 () Atomic restore: dropping original table (5tJcmw_revslider_static_slides)
+0001.784 () Atomic restore: renaming new table (sj_revslider_static_slides) to final table name (5tJcmw_revslider_static_slides)
+0001.787 () Search and replacing table: 5tJcmw_revslider_static_slides: rows: 3
+0001.788 () Processing table (InnoDB): Nhv7QGk4_revslider_static_slides_bkp - will restore as: sj_revslider_static_slides_bkp
+0001.794 () Atomic restore: dropping original table (5tJcmw_revslider_static_slides_bkp)
+0001.795 () Atomic restore: renaming new table (sj_revslider_static_slides_bkp) to final table name (5tJcmw_revslider_static_slides_bkp)
+0001.798 () Search and replacing table: 5tJcmw_revslider_static_slides_bkp: rows: 0
+0001.798 () Processing table (InnoDB): Nhv7QGk4_wc_admin_note_actions - will restore as: sj_wc_admin_note_actions
+0001.807 () Atomic restore: dropping original table (5tJcmw_wc_admin_note_actions)
+0001.808 () Atomic restore: renaming new table (sj_wc_admin_note_actions) to final table name (5tJcmw_wc_admin_note_actions)
+0001.812 () Search and replacing table: 5tJcmw_wc_admin_note_actions: rows: 95
+0001.814 () Processing table (InnoDB): Nhv7QGk4_wc_admin_notes - will restore as: sj_wc_admin_notes
+0001.826 () Atomic restore: dropping original table (5tJcmw_wc_admin_notes)
+0001.828 () Atomic restore: renaming new table (sj_wc_admin_notes) to final table name (5tJcmw_wc_admin_notes)
+0001.831 () Search and replacing table: 5tJcmw_wc_admin_notes: rows: 68
+0001.871 () Processing table (InnoDB): Nhv7QGk4_wc_customer_lookup - will restore as: sj_wc_customer_lookup
+0001.879 () Atomic restore: dropping original table (5tJcmw_wc_customer_lookup)
+0001.880 () Atomic restore: renaming new table (sj_wc_customer_lookup) to final table name (5tJcmw_wc_customer_lookup)
+0001.884 () Search and replacing table: 5tJcmw_wc_customer_lookup: rows: 0
+0001.884 () Processing table (InnoDB): Nhv7QGk4_wc_download_log - will restore as: sj_wc_download_log
+0001.893 () Atomic restore: dropping original table (5tJcmw_wc_download_log)
+0001.899 () Atomic restore: renaming new table (sj_wc_download_log) to final table name (5tJcmw_wc_download_log)
+0001.902 () Search and replacing table: 5tJcmw_wc_download_log: rows: 0
+0001.902 () Processing table (InnoDB): Nhv7QGk4_wc_order_coupon_lookup - will restore as: sj_wc_order_coupon_lookup
+0001.911 () Database queries processed: 150 in 1.85 seconds
+0001.911 () Atomic restore: dropping original table (5tJcmw_wc_order_coupon_lookup)
+0001.913 () Atomic restore: renaming new table (sj_wc_order_coupon_lookup) to final table name (5tJcmw_wc_order_coupon_lookup)
+0001.917 () Search and replacing table: 5tJcmw_wc_order_coupon_lookup: rows: 0
+0001.917 () Processing table (InnoDB): Nhv7QGk4_wc_order_product_lookup - will restore as: sj_wc_order_product_lookup
+0001.933 () Atomic restore: dropping original table (5tJcmw_wc_order_product_lookup)
+0001.934 () Atomic restore: renaming new table (sj_wc_order_product_lookup) to final table name (5tJcmw_wc_order_product_lookup)
+0001.938 () Search and replacing table: 5tJcmw_wc_order_product_lookup: rows: 0
+0001.938 () Processing table (InnoDB): Nhv7QGk4_wc_order_stats - will restore as: sj_wc_order_stats
+0001.945 () Atomic restore: dropping original table (5tJcmw_wc_order_stats)
+0001.947 () Atomic restore: renaming new table (sj_wc_order_stats) to final table name (5tJcmw_wc_order_stats)
+0001.950 () Search and replacing table: 5tJcmw_wc_order_stats: rows: 0
+0001.950 () Processing table (InnoDB): Nhv7QGk4_wc_order_tax_lookup - will restore as: sj_wc_order_tax_lookup
+0001.957 () Atomic restore: dropping original table (5tJcmw_wc_order_tax_lookup)
+0001.958 () Atomic restore: renaming new table (sj_wc_order_tax_lookup) to final table name (5tJcmw_wc_order_tax_lookup)
+0001.962 () Search and replacing table: 5tJcmw_wc_order_tax_lookup: rows: 0
+0001.962 () Processing table (InnoDB): Nhv7QGk4_wc_product_attributes_lookup - will restore as: sj_wc_product_attributes_lookup
+0001.969 () Atomic restore: dropping original table (5tJcmw_wc_product_attributes_lookup)
+0001.970 () Atomic restore: renaming new table (sj_wc_product_attributes_lookup) to final table name (5tJcmw_wc_product_attributes_lookup)
+0001.973 () Search and replacing table: 5tJcmw_wc_product_attributes_lookup: rows: 0
+0001.973 () Processing table (InnoDB): Nhv7QGk4_wc_product_download_directories - will restore as: sj_wc_product_download_directories
+0001.980 () Atomic restore: dropping original table (5tJcmw_wc_product_download_directories)
+0001.981 () Atomic restore: renaming new table (sj_wc_product_download_directories) to final table name (5tJcmw_wc_product_download_directories)
+0001.983 () Search and replacing table: 5tJcmw_wc_product_download_directories: rows: 2
+0001.984 () Processing table (InnoDB): Nhv7QGk4_wc_rate_limits - will restore as: sj_wc_rate_limits
+0001.990 () Atomic restore: dropping original table (5tJcmw_wc_rate_limits)
+0001.991 () Atomic restore: renaming new table (sj_wc_rate_limits) to final table name (5tJcmw_wc_rate_limits)
+0001.993 () Search and replacing table: 5tJcmw_wc_rate_limits: rows: 0
+0001.993 () Processing table (InnoDB): Nhv7QGk4_wc_webhooks - will restore as: sj_wc_webhooks
+0001.999 () Atomic restore: dropping original table (5tJcmw_wc_webhooks)
+0002.000 () Atomic restore: renaming new table (sj_wc_webhooks) to final table name (5tJcmw_wc_webhooks)
+0002.003 () Search and replacing table: 5tJcmw_wc_webhooks: rows: 0
+0002.003 () Processing table (InnoDB): Nhv7QGk4_woocommerce_api_keys - will restore as: sj_woocommerce_api_keys
+0002.009 () Atomic restore: dropping original table (5tJcmw_woocommerce_api_keys)
+0002.010 () Atomic restore: renaming new table (sj_woocommerce_api_keys) to final table name (5tJcmw_woocommerce_api_keys)
+0002.013 () Search and replacing table: 5tJcmw_woocommerce_api_keys: rows: 0
+0002.013 () Processing table (InnoDB): Nhv7QGk4_woocommerce_attribute_taxonomies - will restore as: sj_woocommerce_attribute_taxonomies
+0002.019 () Atomic restore: dropping original table (5tJcmw_woocommerce_attribute_taxonomies)
+0002.020 () Atomic restore: renaming new table (sj_woocommerce_attribute_taxonomies) to final table name (5tJcmw_woocommerce_attribute_taxonomies)
+0002.024 () Search and replacing table: 5tJcmw_woocommerce_attribute_taxonomies: rows: 0
+0002.024 () Processing table (InnoDB): Nhv7QGk4_woocommerce_downloadable_product_permissions - will restore as: sj_woocommerce_downloadable_product_permissions
+0002.033 () Atomic restore: dropping original table (5tJcmw_woocommerce_downloadable_product_permissions)
+0002.034 () Atomic restore: renaming new table (sj_woocommerce_downloadable_product_permissions) to final table name (5tJcmw_woocommerce_downloadable_product_permissions)
+0002.037 () Search and replacing table: 5tJcmw_woocommerce_downloadable_product_permissions: rows: 0
+0002.038 () Processing table (InnoDB): Nhv7QGk4_woocommerce_log - will restore as: sj_woocommerce_log
+0002.049 () Atomic restore: dropping original table (5tJcmw_woocommerce_log)
+0002.051 () Atomic restore: renaming new table (sj_woocommerce_log) to final table name (5tJcmw_woocommerce_log)
+0002.056 () Search and replacing table: 5tJcmw_woocommerce_log: rows: 0
+0002.056 () Processing table (InnoDB): Nhv7QGk4_woocommerce_order_items - will restore as: sj_woocommerce_order_items
+0002.063 () Atomic restore: dropping original table (5tJcmw_woocommerce_order_items)
+0002.064 () Atomic restore: renaming new table (sj_woocommerce_order_items) to final table name (5tJcmw_woocommerce_order_items)
+0002.067 () Search and replacing table: 5tJcmw_woocommerce_order_items: rows: 0
+0002.067 () Processing table (InnoDB): Nhv7QGk4_woocommerce_payment_tokens - will restore as: sj_woocommerce_payment_tokens
+0002.073 () Atomic restore: dropping original table (5tJcmw_woocommerce_payment_tokens)
+0002.074 () Atomic restore: renaming new table (sj_woocommerce_payment_tokens) to final table name (5tJcmw_woocommerce_payment_tokens)
+0002.077 () Search and replacing table: 5tJcmw_woocommerce_payment_tokens: rows: 0
+0002.077 () Processing table (InnoDB): Nhv7QGk4_woocommerce_sessions - will restore as: sj_woocommerce_sessions
+0002.082 () Atomic restore: dropping original table (5tJcmw_woocommerce_sessions)
+0002.083 () Atomic restore: renaming new table (sj_woocommerce_sessions) to final table name (5tJcmw_woocommerce_sessions)
+0002.086 () Search and replacing table: 5tJcmw_woocommerce_sessions: rows: 4
+0002.086 () Processing table (InnoDB): Nhv7QGk4_woocommerce_shipping_zone_locations - will restore as: sj_woocommerce_shipping_zone_locations
+0002.092 () Atomic restore: dropping original table (5tJcmw_woocommerce_shipping_zone_locations)
+0002.093 () Atomic restore: renaming new table (sj_woocommerce_shipping_zone_locations) to final table name (5tJcmw_woocommerce_shipping_zone_locations)
+0002.096 () Search and replacing table: 5tJcmw_woocommerce_shipping_zone_locations: rows: 0
+0002.096 () Processing table (InnoDB): Nhv7QGk4_woocommerce_shipping_zone_methods - will restore as: sj_woocommerce_shipping_zone_methods
+0002.101 () Atomic restore: dropping original table (5tJcmw_woocommerce_shipping_zone_methods)
+0002.102 () Atomic restore: renaming new table (sj_woocommerce_shipping_zone_methods) to final table name (5tJcmw_woocommerce_shipping_zone_methods)
+0002.105 () Search and replacing table: 5tJcmw_woocommerce_shipping_zone_methods: rows: 0
+0002.105 () Processing table (InnoDB): Nhv7QGk4_woocommerce_shipping_zones - will restore as: sj_woocommerce_shipping_zones
+0002.110 () Atomic restore: dropping original table (5tJcmw_woocommerce_shipping_zones)
+0002.111 () Atomic restore: renaming new table (sj_woocommerce_shipping_zones) to final table name (5tJcmw_woocommerce_shipping_zones)
+0002.114 () Search and replacing table: 5tJcmw_woocommerce_shipping_zones: rows: 0
+0002.114 () Processing table (InnoDB): Nhv7QGk4_woocommerce_tax_rate_locations - will restore as: sj_woocommerce_tax_rate_locations
+0002.121 () Atomic restore: dropping original table (5tJcmw_woocommerce_tax_rate_locations)
+0002.123 () Atomic restore: renaming new table (sj_woocommerce_tax_rate_locations) to final table name (5tJcmw_woocommerce_tax_rate_locations)
+0002.126 () Search and replacing table: 5tJcmw_woocommerce_tax_rate_locations: rows: 0
+0002.126 () Processing table (InnoDB): Nhv7QGk4_woocommerce_tax_rates - will restore as: sj_woocommerce_tax_rates
+0002.132 () Unlocking database and leaving maintenance mode
+0002.132 () Disabling Maintenance mode&#8230;
+0002.132 () Atomic restore: dropping original table (5tJcmw_woocommerce_tax_rates)
+0002.134 () Atomic restore: renaming new table (sj_woocommerce_tax_rates) to final table name (5tJcmw_woocommerce_tax_rates)
+0002.137 () Search and replacing table: 5tJcmw_woocommerce_tax_rates: rows: 0
+0002.137 () Finished: lines processed: 192 in 2.08 seconds
+0002.138 () Cleaning up rubbish...
+0002.147 () Entity: plugins
+0002.147 () restore_backup(backup_file=backup_2023-07-13-1058_Nydoz_1105a51517a5-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:47:"/home/fundsnydoz/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0002.147 () Unpacking backup... (backup_2023-07-13-1058_Nydoz_1105a51517a5-plugins.zip, 75.6 MB)
+0002.148 () Unzipping backup_2023-07-13-1058_Nydoz_1105a51517a5-plugins.zip to /home/fundsnydoz/public_html/wp-content/upgrade/b9c53281/ using UpdraftPlus_ZipArchive, starting index 0
+0002.473 () Unzip progress: 2761 out of 16817 files (7.4 KB, plugins/the-events-calendar/common/vendor/vendor-prefixed/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php)
+0002.587 () Unzip progress: 3762 out of 16817 files (9.8 MB, plugins/the-events-calendar/src/Events/Custom_Tables/V1/Models/Validators/String_Validator.php)
+0002.749 () Unzip progress: 4763 out of 16817 files (25.3 MB, plugins/krowd-themer/redux/redux-framework/assets/css/vendor/qtip.css.map)
+0002.847 () Unzip progress: 5764 out of 16817 files (31.6 MB, plugins/updraftplus/languages/updraftplus-ar.po)
+0003.038 () Unzip progress: 6765 out of 16817 files (57.6 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/CDN/Service.php)
+0003.181 () Unzip progress: 7766 out of 16817 files (70.1 MB, plugins/revslider/public/assets/fonts/pe-icon-7-stroke/index.php)
+0003.350 () Unzip progress: 8767 out of 16817 files (89.2 MB, plugins/revslider/public/assets/assets/svg/busy-icons-svg/preson-laurels.svg)
+0003.483 () Unzip progress: 9768 out of 16817 files (102.7 MB, plugins/elementor-pro/assets/css/preview.min.css)
+0003.706 () Unzip progress: 10769 out of 16817 files (131.9 MB, plugins/elementor/includes/embed.php)
+0003.804 () Unzip progress: 11770 out of 16817 files (138.6 MB, plugins/woocommerce/templates/cart/shipping-calculator.php)
+0003.986 () Unzip progress: 12771 out of 16817 files (158.9 MB, plugins/woocommerce/src/Admin/API/Reports/Cache.php)
+0004.099 () Unzip progress: 13772 out of 16817 files (167 MB, plugins/woocommerce/vendor/sabberworm/php-css-parser/src/CSSList/CSSBlockList.php)
+0004.228 () Unzip progress: 14773 out of 16817 files (176.5 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/save.js)
+0004.331 () Unzip progress: 15774 out of 16817 files (181.6 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/checkout/types.ts)
+0004.415 () Unzip progress: 16775 out of 16817 files (185.3 MB, plugins/woocommerce/packages/woocommerce-blocks/images/block-error.svg)
+0004.434 () Unzip progress: 16817 out of 16817 files (190.2 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/js/shared/hocs/with-product-data-context.js)
+0004.445 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.445 () Moving old data: can potentially use wp_filesystem method / -old
+0004.445 () Moving old data out of the way...
+0004.470 () Top-level entities being moved: akismet, updraftplus, hello.php, index.php
+0004.471 () Moving unpacked backup into place...
+0004.742 () Top-level entities being moved: meta-box, the-events-calendar, krowd-themer, akismet, updraftplus, mailchimp-for-wp, hello.php, revslider, elementor-pro, copy-delete-posts, wp-crowdfunding, elementor, metronet-profile-picture, contact-form-7, custom-twitter-feeds, index.php, woocommerce
+0004.747 () Cleaning up rubbish...
+0004.752 () Entity: themes
+0004.752 () restore_backup(backup_file=backup_2023-07-13-1058_Nydoz_1105a51517a5-themes.zip, type=themes, info=a:3:{s:4:"path";s:46:"/home/fundsnydoz/public_html/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0004.752 () Unpacking backup... (backup_2023-07-13-1058_Nydoz_1105a51517a5-themes.zip, 15.6 MB)
+0004.752 () Unzipping backup_2023-07-13-1058_Nydoz_1105a51517a5-themes.zip to /home/fundsnydoz/public_html/wp-content/upgrade/c70739fa/ using UpdraftPlus_ZipArchive, starting index 0
+0004.926 () Unzip progress: 1002 out of 1136 files (22.3 MB, themes/krowd/languages/krowd.pot)
+0004.973 () Unzip progress: 1136 out of 1136 files (28.6 MB, themes/twentytwentytwo/parts/footer.html)
+0004.977 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.977 () Moving old data: can potentially use wp_filesystem method / -old
+0004.977 () Moving old data out of the way...
+0005.012 () Top-level entities being moved: twentytwentytwo, twentytwentyone, index.php, twentytwentythree
+0005.012 () Moving unpacked backup into place...
+0005.038 () Top-level entities being moved: twentytwentytwo, krowd, krowd_child, twentytwentyone, index.php, twentytwentythree
+0005.039 () Cleaning up rubbish...
+0005.043 () Entity: uploads
+0005.043 () restore_backup(backup_file=backup_2023-07-13-1058_Nydoz_1105a51517a5-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:47:"/home/fundsnydoz/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0005.043 () Unpacking backup... (backup_2023-07-13-1058_Nydoz_1105a51517a5-uploads.zip, 74.1 MB)
+0005.043 () Unzipping backup_2023-07-13-1058_Nydoz_1105a51517a5-uploads.zip to /home/fundsnydoz/public_html/wp-content/upgrade/a3b01ace/ using UpdraftPlus_ZipArchive, starting index 0
+0005.383 () Unzip progress: 292 out of 292 files (74.1 MB, uploads/woocommerce-placeholder-640x550.png)
+0005.384 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.384 () Moving old data: can potentially use wp_filesystem method / -old
+0005.384 () Moving old data out of the way...
+0005.384 () Moving unpacked backup into place...
+0005.389 () Cleaning up rubbish...
+0005.391 () Entity: others
+0005.391 () restore_backup(backup_file=backup_2023-07-13-1058_Nydoz_1105a51517a5-others.zip, type=others, info=a:2:{s:4:"path";s:39:"/home/fundsnydoz/public_html/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0005.391 () Unpacking backup... (backup_2023-07-13-1058_Nydoz_1105a51517a5-others.zip, 0 MB)
+0005.392 () Unzipping backup_2023-07-13-1058_Nydoz_1105a51517a5-others.zip to /home/fundsnydoz/public_html/wp-content/upgrade/a5295005/ using UpdraftPlus_ZipArchive, starting index 0
+0005.393 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0005.394 () Cleaning up rubbish...
+0005.402 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0005.407 () Restore successful!
+0005.407 () Restore successful

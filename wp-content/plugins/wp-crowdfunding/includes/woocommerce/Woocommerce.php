@@ -109,7 +109,7 @@ class Woocommerce {
 	 */
 	function override_checkout_fields( $fields ) {
 		$crowdfunding_found = '';
-		if(! WC()->cart && WC()->cart->is_empty()){
+		if(! WC()->cart){
 			return ;
 		}
 		$items              = WC()->cart->get_cart();

@@ -1,0 +1,421 @@
+0000.000 (0) Opened log file at time: Thu, 13 Jul 2023 23:14:26 +0000 on https://funds.nydoz.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.20 (fpm-fcgi, Linux server.nydoz.com 4.18.0-425.13.1.lve.el8.x86_64 #1 SMP Mon Feb 27 15:23:24 EST 2023 x86_64) MySQL: 10.6.14-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 85M | 88M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.059 (0) Free space on disk containing Updraft's temporary directory: 147616.6 MB
+0000.061 (0) Deleting old temporary file: log.7b20491bca11-browser.txt
+0000.063 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.064 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.067 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1689245931, seconds_ago=44135)
+0000.068 (0) Semaphore (fd, 5tJcmw_options) was stuck, set lock time to 2023-07-13 23:14:26
+0000.070 (0) Semaphore (fd, 5tJcmw_options) reset to 1
+0000.070 (0) Set semaphore last lock (fd) time to 2023-07-13 23:14:26
+0000.071 (0) Semaphore lock (fd) complete
+0000.074 (0) Backup run: resumption=0, nonce=4c3b03e034ce, file_nonce=4c3b03e034ce begun at=1689290066 (0s ago), job type=backup
+0000.075 (0) Scheduling a resumption (1) after 300 seconds (1689290366) in case this run gets aborted
+0000.086 (0) Checking if we have a zip executable available
+0000.087 (0) Testing: /usr/bin/zip
+0000.093 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.094 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.095 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.096 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.096 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.106 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.108 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.115 (0) Working binary zip found: /usr/bin/zip
+0000.117 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.118 (0) Creation of backups of directories: beginning
+0000.119 (0) No backup of plugins: excluded by user's options
+0000.120 (0) No backup of themes: excluded by user's options
+0000.121 (0) No backup of uploads: excluded by user's options
+0000.124 (0) No backup of others: excluded by user's options
+0000.126 (0) Saving backup status to database (elements: 0)
+0000.128 (0) Beginning creation of database dump (WordPress DB)
+0000.129 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.132 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.161 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `5tJcmw_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */; (truncated - 1471 bytes total)
+0000.163 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.173 (0) Table 5tJcmw_options: Total expected rows (via COUNT): 700
+0000.234 (0) Table 5tJcmw_options: Rows added in this batch (next record: 1857): 695 (uncompressed bytes in this segment=2254758) in 0.07 seconds
+0000.240 (0) Table 5tJcmw_options: finishing file(s) (2, 352 KB)
+0000.243 (0) Table 5tJcmw_users: Total expected rows (via COUNT): 3
+0000.244 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.246 (0) Table 5tJcmw_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1556) in 0.00 seconds
+0000.248 (0) Table 5tJcmw_users: finishing file(s) (2, 0.8 KB)
+0000.252 (0) Table 5tJcmw_usermeta: Total expected rows (via COUNT): 118
+0000.253 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.255 (0) Table 5tJcmw_usermeta: Rows added in this batch (next record: 124): 118 (uncompressed bytes in this segment=12116) in 0.01 seconds
+0000.260 (0) Table 5tJcmw_usermeta: finishing file(s) (2, 3.5 KB)
+0000.266 (0) Table 5tJcmw_actionscheduler_actions: Total expected rows (via COUNT): 25
+0000.267 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.275 (0) Table 5tJcmw_actionscheduler_actions: Rows added in this batch (next record: 34): 25 (uncompressed bytes in this segment=10569) in 0.01 seconds
+0000.280 (0) Table 5tJcmw_actionscheduler_actions: finishing file(s) (2, 1.5 KB)
+0000.284 (0) Table 5tJcmw_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.286 (0) Table 5tJcmw_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=649) in 0.00 seconds
+0000.288 (0) Table 5tJcmw_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.291 (0) Table 5tJcmw_actionscheduler_groups: Total expected rows (via COUNT): 2
+0000.292 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.317 (0) Table 5tJcmw_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=718) in 0.03 seconds
+0000.320 (0) Table 5tJcmw_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.324 (0) Table 5tJcmw_actionscheduler_logs: Total expected rows (via COUNT): 73
+0000.325 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.328 (0) Table 5tJcmw_actionscheduler_logs: Rows added in this batch (next record: 73): 73 (uncompressed bytes in this segment=7266) in 0.01 seconds
+0000.331 (0) Table 5tJcmw_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0000.336 (0) Table 5tJcmw_commentmeta: Total expected rows (via COUNT): 1
+0000.336 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.339 (0) Table 5tJcmw_commentmeta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=737) in 0.01 seconds
+0000.343 (0) Table 5tJcmw_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.352 (0) Table 5tJcmw_comments: Total expected rows (via COUNT): 11
+0000.353 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.355 (0) Table 5tJcmw_comments: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=4340) in 0.01 seconds
+0000.357 (0) Table 5tJcmw_comments: finishing file(s) (2, 1.5 KB)
+0000.363 (0) Table 5tJcmw_links: Total expected rows (via COUNT): 0
+0000.366 (0) Table 5tJcmw_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1051) in 0.00 seconds
+0000.369 (0) Table 5tJcmw_links: finishing file(s) (2, 0.5 KB)
+0000.393 (0) Table 5tJcmw_postmeta: Total expected rows (approximate): 5278
+0000.539 (0) Table 5tJcmw_postmeta: Rows added in this batch (next record: 5622): 5065 (uncompressed bytes in this segment=5369740) in 0.17 seconds
+0000.543 (0) Table 5tJcmw_postmeta: finishing file(s) (2, 665.1 KB)
+0000.556 (0) Table 5tJcmw_posts: Total expected rows (via COUNT): 388
+0000.556 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.600 (0) Table 5tJcmw_posts: Rows added in this batch (next record: 9857): 388 (uncompressed bytes in this segment=2163436) in 0.06 seconds
+0000.607 (0) Table 5tJcmw_posts: finishing file(s) (2, 117.2 KB)
+0000.610 (0) Table 5tJcmw_tec_events: Total expected rows (via COUNT): 4
+0000.611 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.613 (0) Table 5tJcmw_tec_events: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1547) in 0.00 seconds
+0000.616 (0) Table 5tJcmw_tec_events: finishing file(s) (2, 0.6 KB)
+0000.620 (0) Table 5tJcmw_tec_occurrences: Total expected rows (via COUNT): 4
+0000.621 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.622 (0) Table 5tJcmw_tec_occurrences: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1739) in 0.00 seconds
+0000.625 (0) Table 5tJcmw_tec_occurrences: finishing file(s) (2, 0.7 KB)
+0000.627 (0) Table 5tJcmw_term_relationships: Total expected rows (approximate): 192
+0000.630 (0) Table 5tJcmw_term_relationships: Rows added in this batch (next record: 100000): 192 (uncompressed bytes in this segment=3714) in 0.00 seconds
+0000.632 (0) Table 5tJcmw_term_relationships: finishing file(s) (2, 0.9 KB)
+0000.636 (0) Table 5tJcmw_term_taxonomy: Total expected rows (via COUNT): 101
+0000.637 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.639 (0) Table 5tJcmw_term_taxonomy: Rows added in this batch (next record: 101): 101 (uncompressed bytes in this segment=4553) in 0.01 seconds
+0000.643 (0) Table 5tJcmw_term_taxonomy: finishing file(s) (2, 1.1 KB)
+0000.647 (0) Table 5tJcmw_termmeta: Total expected rows (via COUNT): 61
+0000.648 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.650 (0) Table 5tJcmw_termmeta: Rows added in this batch (next record: 61): 61 (uncompressed bytes in this segment=2835) in 0.00 seconds
+0000.652 (0) Table 5tJcmw_termmeta: finishing file(s) (2, 0.8 KB)
+0000.655 (0) Table 5tJcmw_terms: Total expected rows (via COUNT): 101
+0000.656 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.658 (0) Table 5tJcmw_terms: Rows added in this batch (next record: 101): 101 (uncompressed bytes in this segment=4264) in 0.00 seconds
+0000.660 (0) Table 5tJcmw_terms: finishing file(s) (2, 1.6 KB)
+0000.663 (0) Table 5tJcmw_wc_category_lookup: Total expected rows (approximate): 17
+0000.665 (0) Table 5tJcmw_wc_category_lookup: Rows added in this batch (next record: 1000): 17 (uncompressed bytes in this segment=794) in 0.00 seconds
+0000.667 (0) Table 5tJcmw_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0000.670 (0) Table 5tJcmw_wc_product_meta_lookup: Total expected rows (via COUNT): 2
+0000.670 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.672 (0) Table 5tJcmw_wc_product_meta_lookup: Rows added in this batch (next record: 9853): 2 (uncompressed bytes in this segment=1476) in 0.00 seconds
+0000.674 (0) Table 5tJcmw_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0000.678 (0) Table 5tJcmw_wc_reserved_stock: Total expected rows (approximate): 0
+0000.679 (0) Table 5tJcmw_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=687) in 0.00 seconds
+0000.681 (0) Table 5tJcmw_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0000.684 (0) Table 5tJcmw_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0000.684 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.686 (0) Table 5tJcmw_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=778) in 0.00 seconds
+0000.688 (0) Table 5tJcmw_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0000.692 (0) Table 5tJcmw_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0000.694 (0) Table 5tJcmw_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=746) in 0.00 seconds
+0000.697 (0) Table 5tJcmw_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0000.700 (0) Table 5tJcmw_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0000.701 (0) Table 5tJcmw_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.00 seconds
+0000.704 (0) Table 5tJcmw_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0000.709 (0) Table 5tJcmw_ctf_feed_caches: Total expected rows (via COUNT): 1
+0000.710 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.711 (0) Table 5tJcmw_ctf_feed_caches: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=868) in 0.01 seconds
+0000.715 (0) Table 5tJcmw_ctf_feed_caches: finishing file(s) (2, 0.5 KB)
+0000.720 (0) Table 5tJcmw_ctf_feed_locator: Total expected rows (via COUNT): 0
+0000.721 (0) Table 5tJcmw_ctf_feed_locator: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=748) in 0.00 seconds
+0000.724 (0) Table 5tJcmw_ctf_feed_locator: finishing file(s) (2, 0.4 KB)
+0000.729 (0) Table 5tJcmw_ctf_feeds: Total expected rows (via COUNT): 0
+0000.729 (0) Table 5tJcmw_ctf_feeds: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=746) in 0.00 seconds
+0000.733 (0) Table 5tJcmw_ctf_feeds: finishing file(s) (2, 0.4 KB)
+0000.736 (0) Table 5tJcmw_ctf_feeds_posts: Total expected rows (via COUNT): 0
+0000.737 (0) Table 5tJcmw_ctf_feeds_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=726) in 0.00 seconds
+0000.739 (0) Table 5tJcmw_ctf_feeds_posts: finishing file(s) (2, 0.4 KB)
+0000.743 (0) Table 5tJcmw_ctf_posts: Total expected rows (via COUNT): 0
+0000.745 (0) Table 5tJcmw_ctf_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=830) in 0.00 seconds
+0000.747 (0) Table 5tJcmw_ctf_posts: finishing file(s) (2, 0.4 KB)
+0000.750 (0) Table 5tJcmw_e_events: Total expected rows (via COUNT): 0
+0000.751 (0) Table 5tJcmw_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.00 seconds
+0000.754 (0) Table 5tJcmw_e_events: finishing file(s) (2, 0.4 KB)
+0000.757 (0) Table 5tJcmw_e_submissions: Total expected rows (via COUNT): 0
+0000.758 (0) Table 5tJcmw_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2003) in 0.00 seconds
+0000.761 (0) Table 5tJcmw_e_submissions: finishing file(s) (2, 0.7 KB)
+0000.764 (0) Table 5tJcmw_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0000.765 (0) Table 5tJcmw_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1164) in 0.00 seconds
+0000.768 (0) Table 5tJcmw_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0000.775 (0) Table 5tJcmw_e_submissions_values: Total expected rows (via COUNT): 0
+0000.777 (0) Table 5tJcmw_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.01 seconds
+0000.781 (0) Table 5tJcmw_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0000.790 (0) Table 5tJcmw_revslider_css: Total expected rows (via COUNT): 109
+0000.790 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.795 (0) Table 5tJcmw_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91157) in 0.01 seconds
+0000.798 (0) Table 5tJcmw_revslider_css: finishing file(s) (2, 4.9 KB)
+0000.804 (0) Table 5tJcmw_revslider_css_bkp: Total expected rows (via COUNT): 47
+0000.805 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.808 (0) Table 5tJcmw_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15486) in 0.01 seconds
+0000.811 (0) Table 5tJcmw_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0000.815 (0) Table 5tJcmw_revslider_layer_animations: Total expected rows (via COUNT): 0
+0000.817 (0) Table 5tJcmw_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=599) in 0.00 seconds
+0000.819 (0) Table 5tJcmw_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0000.823 (0) Table 5tJcmw_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0000.824 (0) Table 5tJcmw_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.00 seconds
+0000.828 (0) Table 5tJcmw_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0000.832 (0) Table 5tJcmw_revslider_navigations: Total expected rows (via COUNT): 0
+0000.833 (0) Table 5tJcmw_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=676) in 0.00 seconds
+0000.836 (0) Table 5tJcmw_revslider_navigations: finishing file(s) (2, 0.4 KB)
+0000.840 (0) Table 5tJcmw_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+0000.841 (0) Table 5tJcmw_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.00 seconds
+0000.844 (0) Table 5tJcmw_revslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+0000.848 (0) Table 5tJcmw_revslider_sliders: Total expected rows (via COUNT): 3
+0000.849 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.852 (0) Table 5tJcmw_revslider_sliders: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=25339) in 0.01 seconds
+0000.855 (0) Table 5tJcmw_revslider_sliders: finishing file(s) (2, 3.3 KB)
+0000.859 (0) Table 5tJcmw_revslider_sliders_bkp: Total expected rows (via COUNT): 0
+0000.860 (0) Table 5tJcmw_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0000.863 (0) Table 5tJcmw_revslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+0000.868 (0) Table 5tJcmw_revslider_slides: Total expected rows (via COUNT): 6
+0000.868 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.872 (0) Table 5tJcmw_revslider_slides: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=80087) in 0.01 seconds
+0000.876 (0) Table 5tJcmw_revslider_slides: finishing file(s) (2, 6.1 KB)
+0000.882 (0) Table 5tJcmw_revslider_slides_bkp: Total expected rows (via COUNT): 0
+0000.884 (0) Table 5tJcmw_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=682) in 0.01 seconds
+0000.889 (0) Table 5tJcmw_revslider_slides_bkp: finishing file(s) (2, 0.4 KB)
+0000.894 (0) Table 5tJcmw_revslider_static_slides: Total expected rows (via COUNT): 3
+0000.895 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.896 (0) Table 5tJcmw_revslider_static_slides: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=994) in 0.00 seconds
+0000.899 (0) Table 5tJcmw_revslider_static_slides: finishing file(s) (2, 0.4 KB)
+0000.911 (0) Table 5tJcmw_revslider_static_slides_bkp: Total expected rows (via COUNT): 0
+0000.913 (0) Table 5tJcmw_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.01 seconds
+0000.917 (0) Table 5tJcmw_revslider_static_slides_bkp: finishing file(s) (2, 0.4 KB)
+0000.921 (0) Table 5tJcmw_wc_admin_note_actions: Total expected rows (via COUNT): 95
+0000.922 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.925 (0) Table 5tJcmw_wc_admin_note_actions: Rows added in this batch (next record: 823): 95 (uncompressed bytes in this segment=19108) in 0.01 seconds
+0000.927 (0) Table 5tJcmw_wc_admin_note_actions: finishing file(s) (2, 3 KB)
+0000.932 (0) Table 5tJcmw_wc_admin_notes: Total expected rows (via COUNT): 68
+0000.933 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.936 (0) Table 5tJcmw_wc_admin_notes: Rows added in this batch (next record: 68): 68 (uncompressed bytes in this segment=32921) in 0.01 seconds
+0000.939 (0) Table 5tJcmw_wc_admin_notes: finishing file(s) (2, 6.5 KB)
+0000.943 (0) Table 5tJcmw_wc_customer_lookup: Total expected rows (via COUNT): 0
+0000.944 (0) Table 5tJcmw_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1042) in 0.00 seconds
+0000.946 (0) Table 5tJcmw_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0000.949 (0) Table 5tJcmw_wc_download_log: Total expected rows (via COUNT): 0
+0000.950 (0) Table 5tJcmw_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.00 seconds
+0000.952 (0) Table 5tJcmw_wc_download_log: finishing file(s) (2, 0.4 KB)
+0000.955 (0) Table 5tJcmw_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0000.955 (0) Table 5tJcmw_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=739) in 0.00 seconds
+0000.957 (0) Table 5tJcmw_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0000.960 (0) Table 5tJcmw_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0000.961 (0) Table 5tJcmw_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1239) in 0.00 seconds
+0000.963 (0) Table 5tJcmw_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0000.966 (0) Table 5tJcmw_wc_order_stats: Total expected rows (via COUNT): 0
+0000.967 (0) Table 5tJcmw_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1216) in 0.00 seconds
+0000.969 (0) Table 5tJcmw_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0000.971 (0) Table 5tJcmw_wc_order_tax_lookup: Total expected rows (approximate): 0
+0000.972 (0) Table 5tJcmw_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=817) in 0.00 seconds
+0000.975 (0) Table 5tJcmw_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0000.977 (0) Table 5tJcmw_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0000.978 (0) Table 5tJcmw_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=855) in 0.00 seconds
+0000.983 (0) Table 5tJcmw_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0001.008 (0) Table 5tJcmw_wc_product_download_directories: Total expected rows (via COUNT): 2
+0001.010 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.012 (0) Table 5tJcmw_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=911) in 0.01 seconds
+0001.015 (0) Table 5tJcmw_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0001.022 (0) Table 5tJcmw_wc_rate_limits: Total expected rows (via COUNT): 0
+0001.024 (0) Table 5tJcmw_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.00 seconds
+0001.026 (0) Table 5tJcmw_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0001.029 (0) Table 5tJcmw_wc_webhooks: Total expected rows (via COUNT): 0
+0001.030 (0) Table 5tJcmw_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1095) in 0.00 seconds
+0001.032 (0) Table 5tJcmw_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0001.036 (0) Table 5tJcmw_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0001.040 (0) Table 5tJcmw_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=897) in 0.01 seconds
+0001.044 (0) Table 5tJcmw_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0001.048 (0) Table 5tJcmw_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0001.049 (0) Table 5tJcmw_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=859) in 0.00 seconds
+0001.051 (0) Table 5tJcmw_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0001.054 (0) Table 5tJcmw_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0001.056 (0) Table 5tJcmw_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1434) in 0.00 seconds
+0001.058 (0) Table 5tJcmw_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0001.062 (0) Table 5tJcmw_woocommerce_log: Total expected rows (via COUNT): 0
+0001.063 (0) Table 5tJcmw_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.00 seconds
+0001.067 (0) Table 5tJcmw_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0001.069 (0) Table 5tJcmw_woocommerce_order_items: Total expected rows (via COUNT): 0
+0001.070 (0) Table 5tJcmw_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.00 seconds
+0001.073 (0) Table 5tJcmw_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0001.077 (0) Table 5tJcmw_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0001.078 (0) Table 5tJcmw_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.00 seconds
+0001.080 (0) Table 5tJcmw_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0001.084 (0) Table 5tJcmw_woocommerce_sessions: Total expected rows (via COUNT): 5
+0001.084 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.086 (0) Table 5tJcmw_woocommerce_sessions: Rows added in this batch (next record: 31): 5 (uncompressed bytes in this segment=9679) in 0.00 seconds
+0001.089 (0) Table 5tJcmw_woocommerce_sessions: finishing file(s) (2, 1.6 KB)
+0001.092 (0) Table 5tJcmw_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0001.094 (0) Table 5tJcmw_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.00 seconds
+0001.096 (0) Table 5tJcmw_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0001.098 (0) Table 5tJcmw_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0001.099 (0) Table 5tJcmw_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=766) in 0.00 seconds
+0001.102 (0) Table 5tJcmw_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0001.105 (0) Table 5tJcmw_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0001.106 (0) Table 5tJcmw_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.00 seconds
+0001.108 (0) Table 5tJcmw_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0001.111 (0) Table 5tJcmw_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0001.112 (0) Table 5tJcmw_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.00 seconds
+0001.114 (0) Table 5tJcmw_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0001.117 (0) Table 5tJcmw_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0001.118 (0) Table 5tJcmw_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1166) in 0.00 seconds
+0001.121 (0) Table 5tJcmw_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0001.121 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/fundsnydoz/public_html/wp-content/updraft/backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db.gz (line 1976, wp-content/plugins/updraftplus/backup.php)
+0001.123 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_options.table.tmpr1858.gz (1/69/fopen): adding to final database dump
+0001.128 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_options.table.gz (2/69/fopen): adding to final database dump
+0001.130 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_users.table.tmpr4.gz (3/69/fopen): adding to final database dump
+0001.131 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_users.table.gz (4/69/fopen): adding to final database dump
+0001.132 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_usermeta.table.tmpr125.gz (5/69/fopen): adding to final database dump
+0001.133 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_usermeta.table.gz (6/69/fopen): adding to final database dump
+0001.133 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_actions.table.tmpr35.gz (7/69/fopen): adding to final database dump
+0001.134 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_actions.table.gz (8/69/fopen): adding to final database dump
+0001.135 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_claims.table.tmpr0.gz (9/69/fopen): adding to final database dump
+0001.135 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_claims.table.gz (10/69/fopen): adding to final database dump
+0001.136 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_groups.table.tmpr3.gz (11/69/fopen): adding to final database dump
+0001.137 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_groups.table.gz (12/69/fopen): adding to final database dump
+0001.137 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_logs.table.tmpr74.gz (13/69/fopen): adding to final database dump
+0001.138 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_actionscheduler_logs.table.gz (14/69/fopen): adding to final database dump
+0001.139 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_commentmeta.table.tmpr2.gz (15/69/fopen): adding to final database dump
+0001.140 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_commentmeta.table.gz (16/69/fopen): adding to final database dump
+0001.140 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_comments.table.tmpr12.gz (17/69/fopen): adding to final database dump
+0001.141 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_comments.table.gz (18/69/fopen): adding to final database dump
+0001.142 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_links.table.tmpr0.gz (19/69/fopen): adding to final database dump
+0001.142 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_links.table.gz (20/69/fopen): adding to final database dump
+0001.143 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_postmeta.table.tmpr5623.gz (21/69/fopen): adding to final database dump
+0001.152 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_postmeta.table.gz (22/69/fopen): adding to final database dump
+0001.153 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_posts.table.tmpr9858.gz (23/69/fopen): adding to final database dump
+0001.155 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_posts.table.gz (24/69/fopen): adding to final database dump
+0001.160 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_tec_events.table.tmpr5.gz (25/69/fopen): adding to final database dump
+0001.164 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_tec_events.table.gz (26/69/fopen): adding to final database dump
+0001.165 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_tec_occurrences.table.tmpr5.gz (27/69/fopen): adding to final database dump
+0001.165 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_tec_occurrences.table.gz (28/69/fopen): adding to final database dump
+0001.166 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_term_relationships.table.tmpr100001.gz (29/69/fopen): adding to final database dump
+0001.166 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_term_relationships.table.gz (30/69/fopen): adding to final database dump
+0001.167 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_term_taxonomy.table.tmpr102.gz (31/69/fopen): adding to final database dump
+0001.167 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_term_taxonomy.table.gz (32/69/fopen): adding to final database dump
+0001.168 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_termmeta.table.tmpr62.gz (33/69/fopen): adding to final database dump
+0001.169 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_termmeta.table.gz (34/69/fopen): adding to final database dump
+0001.169 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_terms.table.tmpr102.gz (35/69/fopen): adding to final database dump
+0001.170 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_terms.table.gz (36/69/fopen): adding to final database dump
+0001.170 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_category_lookup.table.tmpr1001.gz (37/69/fopen): adding to final database dump
+0001.171 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_category_lookup.table.gz (38/69/fopen): adding to final database dump
+0001.171 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_product_meta_lookup.table.tmpr9854.gz (39/69/fopen): adding to final database dump
+0001.172 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_product_meta_lookup.table.gz (40/69/fopen): adding to final database dump
+0001.172 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_reserved_stock.table.tmpr1.gz (41/69/fopen): adding to final database dump
+0001.173 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_reserved_stock.table.gz (42/69/fopen): adding to final database dump
+0001.174 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_tax_rate_classes.table.tmpr3.gz (43/69/fopen): adding to final database dump
+0001.174 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_tax_rate_classes.table.gz (44/69/fopen): adding to final database dump
+0001.175 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_order_itemmeta.table.tmpr0.gz (45/69/fopen): adding to final database dump
+0001.175 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_order_itemmeta.table.gz (46/69/fopen): adding to final database dump
+0001.176 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_payment_tokenmeta.table.tmpr0.gz (47/69/fopen): adding to final database dump
+0001.177 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_payment_tokenmeta.table.gz (48/69/fopen): adding to final database dump
+0001.177 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feed_caches.table.tmpr2.gz (49/69/fopen): adding to final database dump
+0001.178 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feed_caches.table.gz (50/69/fopen): adding to final database dump
+0001.178 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feed_locator.table.tmpr0.gz (51/69/fopen): adding to final database dump
+0001.179 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feed_locator.table.gz (52/69/fopen): adding to final database dump
+0001.179 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feeds.table.tmpr0.gz (53/69/fopen): adding to final database dump
+0001.180 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feeds.table.gz (54/69/fopen): adding to final database dump
+0001.180 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feeds_posts.table.tmpr0.gz (55/69/fopen): adding to final database dump
+0001.181 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_feeds_posts.table.gz (56/69/fopen): adding to final database dump
+0001.182 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_posts.table.tmpr0.gz (57/69/fopen): adding to final database dump
+0001.182 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_ctf_posts.table.gz (58/69/fopen): adding to final database dump
+0001.183 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_events.table.tmpr0.gz (59/69/fopen): adding to final database dump
+0001.183 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_events.table.gz (60/69/fopen): adding to final database dump
+0001.184 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_submissions.table.tmpr0.gz (61/69/fopen): adding to final database dump
+0001.185 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_submissions.table.gz (62/69/fopen): adding to final database dump
+0001.185 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_submissions_actions_log.table.tmpr0.gz (63/69/fopen): adding to final database dump
+0001.186 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_submissions_actions_log.table.gz (64/69/fopen): adding to final database dump
+0001.186 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_submissions_values.table.tmpr0.gz (65/69/fopen): adding to final database dump
+0001.187 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_e_submissions_values.table.gz (66/69/fopen): adding to final database dump
+0001.188 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_css.table.tmpr110.gz (67/69/fopen): adding to final database dump
+0001.188 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_css.table.gz (68/69/fopen): adding to final database dump
+0001.189 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_css_bkp.table.tmpr48.gz (69/69/fopen): adding to final database dump
+0001.189 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_css_bkp.table.gz (70/69/fopen): adding to final database dump
+0001.190 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_layer_animations.table.tmpr0.gz (71/69/fopen): adding to final database dump
+0001.190 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_layer_animations.table.gz (72/69/fopen): adding to final database dump
+0001.191 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_layer_animations_bkp.table.tmpr0.gz (73/69/fopen): adding to final database dump
+0001.191 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_layer_animations_bkp.table.gz (74/69/fopen): adding to final database dump
+0001.192 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_navigations.table.tmpr0.gz (75/69/fopen): adding to final database dump
+0001.192 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_navigations.table.gz (76/69/fopen): adding to final database dump
+0001.193 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_navigations_bkp.table.tmpr0.gz (77/69/fopen): adding to final database dump
+0001.193 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_navigations_bkp.table.gz (78/69/fopen): adding to final database dump
+0001.194 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_sliders.table.tmpr4.gz (79/69/fopen): adding to final database dump
+0001.195 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_sliders.table.gz (80/69/fopen): adding to final database dump
+0001.195 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_sliders_bkp.table.tmpr0.gz (81/69/fopen): adding to final database dump
+0001.196 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_sliders_bkp.table.gz (82/69/fopen): adding to final database dump
+0001.196 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_slides.table.tmpr7.gz (83/69/fopen): adding to final database dump
+0001.197 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_slides.table.gz (84/69/fopen): adding to final database dump
+0001.198 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_slides_bkp.table.tmpr0.gz (85/69/fopen): adding to final database dump
+0001.198 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_slides_bkp.table.gz (86/69/fopen): adding to final database dump
+0001.199 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_static_slides.table.tmpr4.gz (87/69/fopen): adding to final database dump
+0001.199 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_static_slides.table.gz (88/69/fopen): adding to final database dump
+0001.200 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_static_slides_bkp.table.tmpr0.gz (89/69/fopen): adding to final database dump
+0001.200 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_revslider_static_slides_bkp.table.gz (90/69/fopen): adding to final database dump
+0001.201 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_admin_note_actions.table.tmpr824.gz (91/69/fopen): adding to final database dump
+0001.201 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_admin_note_actions.table.gz (92/69/fopen): adding to final database dump
+0001.202 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_admin_notes.table.tmpr69.gz (93/69/fopen): adding to final database dump
+0001.203 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_admin_notes.table.gz (94/69/fopen): adding to final database dump
+0001.203 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_customer_lookup.table.tmpr0.gz (95/69/fopen): adding to final database dump
+0001.204 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_customer_lookup.table.gz (96/69/fopen): adding to final database dump
+0001.205 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_download_log.table.tmpr0.gz (97/69/fopen): adding to final database dump
+0001.205 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_download_log.table.gz (98/69/fopen): adding to final database dump
+0001.206 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_coupon_lookup.table.tmpr1.gz (99/69/fopen): adding to final database dump
+0001.207 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_coupon_lookup.table.gz (100/69/fopen): adding to final database dump
+0001.208 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_product_lookup.table.tmpr0.gz (101/69/fopen): adding to final database dump
+0001.209 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_product_lookup.table.gz (102/69/fopen): adding to final database dump
+0001.209 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_stats.table.tmpr0.gz (103/69/fopen): adding to final database dump
+0001.210 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_stats.table.gz (104/69/fopen): adding to final database dump
+0001.210 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_tax_lookup.table.tmpr1.gz (105/69/fopen): adding to final database dump
+0001.211 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_order_tax_lookup.table.gz (106/69/fopen): adding to final database dump
+0001.212 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_product_attributes_lookup.table.tmpr1.gz (107/69/fopen): adding to final database dump
+0001.213 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_product_attributes_lookup.table.gz (108/69/fopen): adding to final database dump
+0001.213 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_product_download_directories.table.tmpr3.gz (109/69/fopen): adding to final database dump
+0001.214 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_product_download_directories.table.gz (110/69/fopen): adding to final database dump
+0001.214 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_rate_limits.table.tmpr0.gz (111/69/fopen): adding to final database dump
+0001.215 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_rate_limits.table.gz (112/69/fopen): adding to final database dump
+0001.216 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_webhooks.table.tmpr0.gz (113/69/fopen): adding to final database dump
+0001.216 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_wc_webhooks.table.gz (114/69/fopen): adding to final database dump
+0001.217 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_api_keys.table.tmpr0.gz (115/69/fopen): adding to final database dump
+0001.217 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_api_keys.table.gz (116/69/fopen): adding to final database dump
+0001.218 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_attribute_taxonomies.table.tmpr0.gz (117/69/fopen): adding to final database dump
+0001.218 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_attribute_taxonomies.table.gz (118/69/fopen): adding to final database dump
+0001.219 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_downloadable_product_permissions.table.tmpr0.gz (119/69/fopen): adding to final database dump
+0001.220 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_downloadable_product_permissions.table.gz (120/69/fopen): adding to final database dump
+0001.220 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_log.table.tmpr0.gz (121/69/fopen): adding to final database dump
+0001.221 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_log.table.gz (122/69/fopen): adding to final database dump
+0001.221 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_order_items.table.tmpr0.gz (123/69/fopen): adding to final database dump
+0001.222 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_order_items.table.gz (124/69/fopen): adding to final database dump
+0001.223 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_payment_tokens.table.tmpr0.gz (125/69/fopen): adding to final database dump
+0001.223 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_payment_tokens.table.gz (126/69/fopen): adding to final database dump
+0001.224 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_sessions.table.tmpr32.gz (127/69/fopen): adding to final database dump
+0001.225 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_sessions.table.gz (128/69/fopen): adding to final database dump
+0001.225 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_shipping_zone_locations.table.tmpr0.gz (129/69/fopen): adding to final database dump
+0001.226 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_shipping_zone_locations.table.gz (130/69/fopen): adding to final database dump
+0001.227 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_shipping_zone_methods.table.tmpr0.gz (131/69/fopen): adding to final database dump
+0001.227 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_shipping_zone_methods.table.gz (132/69/fopen): adding to final database dump
+0001.228 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_shipping_zones.table.tmpr0.gz (133/69/fopen): adding to final database dump
+0001.228 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_shipping_zones.table.gz (134/69/fopen): adding to final database dump
+0001.229 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_tax_rate_locations.table.tmpr0.gz (135/69/fopen): adding to final database dump
+0001.230 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_tax_rate_locations.table.gz (136/69/fopen): adding to final database dump
+0001.230 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_tax_rates.table.tmpr0.gz (137/69/fopen): adding to final database dump
+0001.231 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db-table-5tJcmw_woocommerce_tax_rates.table.gz (138/69/fopen): adding to final database dump
+0001.236 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db.gz: finished writing out complete database file (1194.9 KB)
+0001.259 (0) Total database tables backed up: 69 (backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db.gz, size: 1223699, sha1: 23f796180ffc0378407e685c1150e38041fd81a7, sha256: 171774b3622618753d363a878cbd9aff50eed89da21cdc824a4407793aa28320)
+0001.263 (0) backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.263 (0) Saving backup history. Total backup size: 1.2 MB
+0001.265 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.266 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.267 (0) No remote despatch: user chose no remote backup service
+0001.268 (0) Recording as successfully uploaded: backup_2023-07-13-2314_Nydoz_4c3b03e034ce-db.gz
+0001.269 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0001.270 (0) Resume backup (4c3b03e034ce, 0): finish run
+0001.271 (0) Decremented the semaphore (fd) by 1
+0001.272 (0) Semaphore (fd) unlocked
+0001.273 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.276 (0) No email will/can be sent - the user has not configured an email address.
+0001.276 (0) The backup apparently succeeded and is now complete

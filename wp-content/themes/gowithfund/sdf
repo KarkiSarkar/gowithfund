@@ -1,0 +1,22 @@
+<?php
+get_header(); // Include header.php
+?>
+
+<div id="primary" class="content-area">
+    <main id="main" class="site-main">
+        <?php
+        // Start the loop
+        while (have_posts()) : the_post();
+
+            // Include the single content template
+           // get_template_part('template-parts/content', 'success_story');
+
+        endwhile; // End of the loop
+        ?>
+    </main><!-- #main -->
+</div><!-- #primary -->
+
+<?php
+get_sidebar(); // Include sidebar.php
+get_footer(); // Include footer.php
+?>
