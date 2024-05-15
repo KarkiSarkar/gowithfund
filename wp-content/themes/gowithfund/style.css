@@ -52,3 +52,6 @@ Version: 1.0.0
 .btn-black:hover , .post:hover .content-inner .read-more .icon {
     color: #ffffff!important;
   }
+  .h1{
+    color:#00A9A5;
+  }
