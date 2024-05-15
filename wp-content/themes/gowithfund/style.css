@@ -55,3 +55,6 @@ Version: 1.0.0
   .h1{
     color:#00A9A5;
   }
+  .title-desc > p {
+    color: red!important;
+  }
